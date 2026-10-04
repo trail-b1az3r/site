@@ -13,8 +13,8 @@ export default function Home() {
     <Seo title="Home" desc="Rayla (trail-b1az3r): software development, AI and language models. Featured projects and models, with live data." />
     <section className="hero wrap"><HeroGrid />
       <p className="handle">trail-b1az3r</p>
-      <h1>Rayla builds software and works with language models.</h1>
-      <p className="lead">I write code, train and publish AI models, and make things for games. Everything below links to the real repositories and models.</p>
+      <h1>Software Vibe-coder, and LM trainer.</h1>
+      <p className="lead">vibe-code, write bad code, train and publish AI models, and make things for games. Everything below links to my repositories and models.</p>
       <p className="tags">{TAGS.map(t => <span key={t}>{t}</span>)}</p>
       <p className="row"><Link className="btn" to="/projects">See the projects</Link><Link className="btn ghost" to="/ai">See the models</Link></p>
     </section>

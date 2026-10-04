@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Menu, X, Sun, Moon } from 'lucide-react'
 import { useTheme } from '../hooks/useFetch'
-const LINKS = [['/', 'Home'], ['/about', 'About'], ['/projects', 'Projects'], ['/ai', 'AI / Models'], ['/github', 'GitHub'], ['/youtube', 'YouTube'], ['/knowledge', 'Knowledge'], ['/links', 'Links']]
+const LINKS = [['/', 'Home'], ['/about', 'About'], ['/projects', 'Projects'], ['/ai', 'AI / Models'], ['/github', 'GitHub'], ['/youtube', 'YouTube'], ['/timeline', 'Timeline'], ['/knowledge', 'Knowledge'], ['/links', 'Links']]
 export default function Navbar() {
   const [open, setOpen] = useState(false); const { theme, toggle } = useTheme()
   return (

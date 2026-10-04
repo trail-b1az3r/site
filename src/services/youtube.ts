@@ -9,6 +9,6 @@ export async function getVideos(): Promise<Video[]> {
   if (!r.ok) throw new Error(String(r.status))
   const j = await r.json()
   if (!Array.isArray(j.items) || !j.items.length) throw new Error('empty')
-  return j.items.slice(0, 9).map((i: { guid: string; title: string; pubDate: string; thumbnail: string; link: string }) =>
+  return j.items.slice(0, 15).map((i: { guid: string; title: string; pubDate: string; thumbnail: string; link: string }) =>
     ({ id: i.guid, title: i.title, published: i.pubDate, thumb: i.thumbnail, url: i.link }))
 }

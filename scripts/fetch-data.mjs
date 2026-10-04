@@ -40,13 +40,28 @@ async function steam() {
 }
 async function youtube() {
   const x = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${YT_ID}`)
-  const videos = [...x.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 9).map((m) => {
+  const videos = [...x.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 15).map((m) => {
     const e = m[1], id = e.match(/<yt:videoId>([^<]+)</)?.[1]
     return { id, title: dec(e.match(/<title>([^<]*)</)?.[1] ?? ''), published: e.match(/<published>([^<]+)</)?.[1], thumb: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }
   }).filter((v) => v.id)
   return { ...prev.youtube, channelId: YT_ID, videos }
 }
-const jobs = { contributions, steam, youtube }
+async function releases() {
+  // Full list of non-draft, non-prerelease GitHub releases; the site filters it to full releases and patches.
+  const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'personal site build script' }
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}` // build-time only, never shipped
+  const out = []
+  for (let page = 1; page <= 5; page++) {
+    const r = await fetch(`https://api.github.com/repos/${GH}/HyperNix-pip/releases?per_page=100&page=${page}`, { headers, signal: AbortSignal.timeout(15000) })
+    if (!r.ok) throw new Error(`releases page ${page} -> ${r.status}`)
+    const list = await r.json()
+    for (const x of list) if (!x.draft && !x.prerelease) out.push({ tag_name: x.tag_name, published_at: x.published_at, html_url: x.html_url, prerelease: false, draft: false, body: (x.body ?? '').slice(0, 1800) })
+    if (list.length < 100) break
+  }
+  if (!out.length) throw new Error('no releases')
+  return out
+}
+const jobs = { contributions, steam, youtube, releases }
 const res = await Promise.allSettled(Object.values(jobs).map((f) => f()))
 const out = { ...prev, generatedAt: new Date().toISOString() }
 Object.keys(jobs).forEach((k, i) => {

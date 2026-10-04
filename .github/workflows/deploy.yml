@@ -14,7 +14,7 @@ jobs:
         with: { node-version: 20, cache: npm }
       - run: npm ci
       - run: npm run build
-        env: { VITE_BASE: '/${{ github.event.repository.name }}/' }
+        env: { VITE_BASE: '/${{ github.event.repository.name }}/', GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist }
   deploy:

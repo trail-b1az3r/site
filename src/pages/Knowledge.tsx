@@ -7,11 +7,12 @@ const TOPICS: [string, string][] = [
   ['Datasets', 'Preparing the data that models learn from.'],
   ['Model architecture', 'Exploring how model design choices affect behaviour.'],
   ['AI tooling', 'Developer tooling that makes working with models smoother.'],
+  ['Basic programing', 'I know a tiny bit of js, and python and im working on learning more then will learn c++.],
 ]
 export default function Knowledge() {
   return (
     <Page title="Knowledge" lead="What I work on in AI, and where you can see it.">
-      <Seo title="Knowledge" desc="Technical interests in language models, training, fine-tuning, inference and AI tooling, backed by public projects." />
+      <Seo title="Knowledge" desc="Technical interests in language models, training, custom SLMs, inference and AI tooling, with the help of Claude" />
       <h2>Areas I work in</h2>
       <dl className="topics">{TOPICS.map(([t, d]) => <div key={t}><dt>{t}</dt><dd>{d}</dd></div>)}</dl>
       <h2>Evidence</h2>

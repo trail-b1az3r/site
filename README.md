@@ -1,4 +1,4 @@
-# Rayla / trail-b1az3r — personal site
+# Rayla / trail-b1az3r — personal [site](https://trail-b1az3r.github.io/site/)
 
 Vite + React + TypeScript. Live data from the public GitHub and Hugging Face APIs, cached in `localStorage` for 10 minutes with stale fallback. No secrets are used or needed.
 
@@ -22,3 +22,5 @@ npm run preview
 - Design tokens (colors, Inter and JetBrains Mono) follow the HyperNix docs site; edit them at the top of `src/styles.css`.
 - Featured repos: `src/services/github.ts`. Featured models: `src/services/huggingface.ts`. Profile links: `src/data/profiles.ts`.
 - The build copies `index.html` to `404.html` so deep links work on GitHub Pages.
+
+

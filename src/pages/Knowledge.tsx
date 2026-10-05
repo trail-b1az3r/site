@@ -7,7 +7,7 @@ const TOPICS: [string, string][] = [
   ['Datasets', 'Preparing the data that models learn from.'],
   ['Model architecture', 'Exploring how model design choices affect behaviour.'],
   ['AI tooling', 'Developer tooling that makes working with models smoother.'],
-  ['Basic programing', 'I know a tiny bit of js, and python and im working on learning more then will learn c++.],
+  ['Basic programing', 'I know a tiny bit of js, and python and im working on learning more then will learn c++.'],
 ]
 export default function Knowledge() {
   return (

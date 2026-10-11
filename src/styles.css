@@ -48,3 +48,27 @@ input[type=search],select{background:var(--s1);color:var(--tx);border:1px solid 
 .foot{border-top:1px solid var(--bd);margin-top:4rem;padding:2rem 0;color:var(--mu);font-size:.88rem}.footin{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}.footin a{margin-left:1rem;color:var(--mu)}.footin a:hover{color:var(--tx)}
 @media(max-width:860px){.burger{display:grid}nav{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--bd);padding:.6rem 1.25rem}nav.open{display:flex}nav a{padding:.8rem}.hero{padding-top:3rem}.footin a{margin:0 1rem 0 0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}.reveal:not(.in){opacity:1;transform:none}.heat:not(.in) .cell{opacity:1}.reveal:not(.in) .bars i{transform:none}}
+/* Home split hero, radar chart, résumé and print */
+.split{display:grid;gap:2rem;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:center}
+@media(max-width:860px){.split{grid-template-columns:1fr}}
+.radar-card{padding:1.2rem 1.2rem 1rem}.card-title{font-size:1rem;font-weight:600;margin:0 0 .4rem;color:var(--dim)}
+.radar{margin:0}.radar svg{display:block;width:100%;max-width:360px;height:auto;margin:0 auto}
+.radar .ring{fill:none;stroke:var(--bd3);stroke-width:1}.radar .spoke{stroke:var(--bd2);stroke-width:1}
+.radar .shape{fill:color-mix(in srgb,var(--ac) 28%,transparent);stroke:var(--ac);stroke-width:2;stroke-linejoin:round}
+.radar .dot{fill:var(--act)}.radar text{fill:var(--dim);font:500 14px var(--mono)}
+.radar figcaption{text-align:center;font-size:.8rem;margin-top:.3rem}
+.activity{display:grid;gap:1rem}.activity .radar svg{max-width:340px}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem;margin:0}
+.legend div{border:1px solid var(--bd2);border-radius:10px;padding:.5rem .7rem;background:var(--s1)}.legend dt{font:500 .78rem var(--mono);color:var(--mu)}.legend dd{margin:0;font-size:1.3rem;font-weight:700}
+.small{font-size:.85rem}
+.resume-item ul{margin:.4rem 0 0;padding-left:1.1rem;color:var(--dim)}.resume-item h3 a{color:var(--tx);text-decoration:none}
+.card-title{display:block}
+@media print{
+  .nav,.foot,.progress,.no-print,.skip{display:none!important}
+  body{background:#fff;color:#111;font-size:11pt}
+  .wrap{max-width:none;padding:0}
+  .card,.flagship,.stat{background:#fff!important;border-color:#bbb!important;break-inside:avoid}
+  h2{margin-top:1.4rem}a{color:#111}
+  .reveal:not(.in){opacity:1!important;transform:none!important}
+}
+button.btn{font:inherit;font-size:.95rem;cursor:pointer}

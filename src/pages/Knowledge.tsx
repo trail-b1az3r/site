@@ -1,21 +1,26 @@
 import { Link } from 'react-router-dom'
 import { Page, Seo } from '../components/ui'
-const TOPICS: [string, string][] = [
-  ['Language models', 'Building, training and using LLMs, and publishing the results on Hugging Face.'],
-  ['Training and fine-tuning', 'Experimenting with how models are trained and adapted.'],
-  ['Inference', 'Running models efficiently and making them usable in real software.'],
-  ['Datasets', 'Preparing the data that models learn from.'],
-  ['Model architecture', 'Exploring how model design choices affect behaviour.'],
-  ['AI tooling', 'Developer tooling that makes working with models smoother.'],
-  ['Basic programing', 'I know a tiny bit of js, and python and im working on learning more then will learn c++.'],
+const DONE: [string, string, string][] = [
+  ['Publishing language models', 'Uploading models and writing model pages on Hugging Face.', '/ai'],
+  ['Shipping releases', 'Tagging versions and writing release notes for HyperNix on GitHub.', '/timeline'],
+  ['Training and fine-tuning experiments', 'Small runs to see how training choices change a model.', '/ai'],
+  ['Building this site', 'React, TypeScript and Vite, with a build that pulls live GitHub and Hugging Face data and deploys on GitHub Pages.', '/github'],
+]
+const LEARNING: [string, string][] = [
+  ['Python', 'I know enough to script with it, and I\'m learning more.'],
+  ['C++', 'The next language on my list, for performance and lower-level work.'],
+  ['Machine learning fundamentals', 'Datasets, evaluation and why a model behaves the way it does.'],
+  ['JavaScript and TypeScript', 'I know a little. This site is written in TypeScript, with a lot of help from AI tools.'],
 ]
 export default function Knowledge() {
   return (
-    <Page title="Knowledge" lead="What I work on in AI, and where you can see it.">
-      <Seo title="Knowledge" desc="Technical interests in language models, training, custom SLMs, inference and AI tooling, with the help of Claude" />
-      <h2>Areas I work in</h2>
-      <dl className="topics">{TOPICS.map(([t, d]) => <div key={t}><dt>{t}</dt><dd>{d}</dd></div>)}</dl>
-      <h2>Evidence</h2>
-      <p className="prose">I'd rather you check than take my word. The <Link to="/ai">AI / Models</Link> page lists what I've published on Hugging Face, the <Link to="/projects">projects</Link> page lists my repositories, and <Link to="/projects/hypernix-pip">HyperNix-pip</Link> is my main project. I'm a developer working in public, not an academic researcher.</p>
+    <Page title="Knowledge" lead="What I've done, what I'm learning, and where you can check it.">
+      <Seo title="Knowledge" desc="What Rayla has built and is learning: language models, training experiments, releases and web tooling." />
+      <h2>What I've done</h2>
+      <dl className="topics">{DONE.map(([t, d, to]) => <div key={t}><dt>{t}</dt><dd>{d} <Link to={to}>See it</Link></dd></div>)}</dl>
+      <h2>What I'm learning</h2>
+      <dl className="topics">{LEARNING.map(([t, d]) => <div key={t}><dt>{t}</dt><dd>{d}</dd></div>)}</dl>
+      <h2>A note on the levels</h2>
+      <p className="prose">I'd rather under-claim than over-claim. The first list is things I've shipped and you can open. The second is what I'm studying now, not a skill I'd put on a job application yet.</p>
     </Page>)
 }

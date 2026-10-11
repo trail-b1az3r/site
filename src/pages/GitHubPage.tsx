@@ -3,6 +3,7 @@ import { FEATURED, getEvents, getRepos, getUser, GH_USER } from '../services/git
 import { FeaturedProjectCard, ProjectCard } from '../components/cards'
 import { ErrorState, Page, Seo, Skeleton, Stat } from '../components/ui'
 import Contributions from '../components/Contributions'
+import { ActivityRadar } from '../components/Radar'
 import { Reveal } from '../components/scroll'
 import { live } from '../data/live'
 import { ago, num } from '../lib/format'
@@ -12,13 +13,15 @@ export default function GitHubPage() {
   const total = langs.reduce((s, [, n]) => s + n, 0)
   const profile = `https://github.com/${GH_USER}`
   return (
-    <Page title="GitHub" lead="Profile overview and recent activity.">
-      <Seo title="GitHub" desc="GitHub profile overview for trail-b1az3r: repositories, languages and recent activity." />
+    <Page title="GitHub" lead="Profile overview, activity over the last year, and recent public events.">
+      <Seo title="GitHub" desc="GitHub profile for trail-b1az3r: 12-month activity radar, contributions, languages and recent events." />
       {user.loading ? <Skeleton n={1} /> : user.data ? (
         <div className="card userbox"><img src={user.data.avatar_url} alt={`${user.data.login} avatar`} width={88} height={88} loading="lazy" />
           <div><h2>{user.data.name ?? user.data.login}</h2>{user.data.bio && <p>{user.data.bio}</p>}
             <div className="statrow"><Stat k="Public repositories" v={user.data.public_repos} /><Stat k="Followers" v={num(user.data.followers)} /></div>
             <a className="btn" href={profile} target="_blank" rel="noreferrer">Open profile</a></div></div>) : <ErrorState href={profile} label="GitHub" />}
+      <h2>Activity, last 12 months</h2>
+      <Reveal><div className="card"><ActivityRadar /></div></Reveal>
       <h2>Flagship repositories</h2>
       <div className="grid two">{FEATURED.map(f => <FeaturedProjectCard key={f.name} {...f} repo={repos.data?.find(r => r.name.toLowerCase() === f.name.toLowerCase())} />)}</div>
       {live.contributions && <><h2>Contributions in the last year</h2><Reveal><Contributions {...live.contributions} /></Reveal></>}

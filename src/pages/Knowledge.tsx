@@ -7,7 +7,7 @@ const DONE: [string, string, string][] = [
   ['Building this site', 'React, TypeScript and Vite, with a build that pulls live GitHub and Hugging Face data and deploys on GitHub Pages.', '/github'],
 ]
 const LEARNING: [string, string][] = [
-  ['Python', 'I know enough to script with it, and I\'m learning more.'],
+  ['Python', 'I know enough to barely fix some scripts with it, and I\'m learning more.'],
   ['C++', 'The next language on my list, for performance and lower-level work.'],
   ['Machine learning fundamentals', 'Datasets, evaluation and why a model behaves the way it does.'],
   ['JavaScript and TypeScript', 'I know a little. This site is written in TypeScript, with a lot of help from AI tools.'],

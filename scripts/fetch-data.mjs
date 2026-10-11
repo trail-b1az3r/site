@@ -1,4 +1,4 @@
-// Build-time data snapshot: GitHub contributions, Steam profile counts, YouTube feed.
+// Build-time data snapshot: GitHub contributions and 12-month activity, Steam profile counts, YouTube feed, releases.
 // Runs before dev/build. Each source fails independently and keeps its previous snapshot.
 import { readFileSync, writeFileSync } from 'node:fs'
 const OUT = 'src/data/live.json'
@@ -11,6 +11,8 @@ const get = async (u) => {
   return r.text()
 }
 const dec = (s) => s.replace(/&amp;/g, '&').replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+const GH_HEADERS = { Accept: 'application/vnd.github+json', 'User-Agent': 'personal site build script' }
+if (process.env.GITHUB_TOKEN) GH_HEADERS.Authorization = `Bearer ${process.env.GITHUB_TOKEN}` // build-time only, never shipped
 
 async function contributions() {
   const h = await get(`https://github.com/users/${GH}/contributions`)
@@ -46,10 +48,30 @@ async function youtube() {
   }).filter((v) => v.id)
   return { ...prev.youtube, channelId: YT_ID, videos }
 }
+async function activity() {
+  // Last 12 months of GitHub activity for the radar chart, counted with the search API.
+  // Reviews are approximate: the search API has no review-date filter, so this uses the PR's last update.
+  const since = new Date(Date.now() - 365 * 864e5).toISOString().slice(0, 10)
+  const count = async ({ kind, query }) => {
+    const r = await fetch(`https://api.github.com/search/${kind}?q=${encodeURIComponent(query)}&per_page=1`, { headers: GH_HEADERS, signal: AbortSignal.timeout(15000) })
+    if (!r.ok) throw new Error(`search ${kind} -> ${r.status}`)
+    return (await r.json()).total_count
+  }
+  const queries = {
+    commits: { kind: 'commits', query: `author:${GH} author-date:>=${since}` },
+    pullsOpened: { kind: 'issues', query: `author:${GH} type:pr created:>=${since}` },
+    pullsMerged: { kind: 'issues', query: `author:${GH} type:pr is:merged merged:>=${since}` },
+    issuesOpened: { kind: 'issues', query: `author:${GH} type:issue created:>=${since}` },
+    reviews: { kind: 'issues', query: `reviewed-by:${GH} -author:${GH} type:pr updated:>=${since}` },
+    reposCreated: { kind: 'repositories', query: `user:${GH} created:>=${since}` },
+  }
+  const out = { since, fetchedAt: new Date().toISOString() }
+  for (const [k, q] of Object.entries(queries)) { out[k] = await count(q); await new Promise(r => setTimeout(r, 2200)) } // stay under the search rate limit
+  return out
+}
 async function releases() {
   // Full list of non-draft, non-prerelease GitHub releases; the site filters it to full releases and patches.
-  const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'personal site build script' }
-  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}` // build-time only, never shipped
+  const headers = GH_HEADERS
   const out = []
   for (let page = 1; page <= 5; page++) {
     const r = await fetch(`https://api.github.com/repos/${GH}/HyperNix-pip/releases?per_page=100&page=${page}`, { headers, signal: AbortSignal.timeout(15000) })
@@ -61,7 +83,7 @@ async function releases() {
   if (!out.length) throw new Error('no releases')
   return out
 }
-const jobs = { contributions, steam, youtube, releases }
+const jobs = { contributions, steam, youtube, releases, activity }
 const res = await Promise.allSettled(Object.values(jobs).map((f) => f()))
 const out = { ...prev, generatedAt: new Date().toISOString() }
 Object.keys(jobs).forEach((k, i) => {

@@ -5,4 +5,5 @@ export interface HfModel { id:string; createdAt?:string; downloads?:number; like
 export interface Video { id:string; title:string; published:string; thumb:string; url:string }
 export interface SteamSnap { name: string; avatar?: string; level?: number; counts: Record<string, number>; favoriteGame?: { name: string; hours?: number; url: string }; fetchedAt: string }
 export interface RawRelease { tag_name: string; published_at: string; html_url: string; prerelease: boolean; draft: boolean; body: string }
-export interface Live { generatedAt?: string; releases?: RawRelease[]; contributions: { total: number; days: { date: string; level: number; count: number }[] } | null; steam: SteamSnap | null; youtube: { channelId: string; name: string; videos: Video[] } }
+export interface Activity { since: string; fetchedAt: string; commits: number; pullsOpened: number; pullsMerged: number; issuesOpened: number; reviews: number; reposCreated: number }
+export interface Live { generatedAt?: string; releases?: RawRelease[]; contributions: { total: number; days: { date: string; level: number; count: number }[] } | null; steam: SteamSnap | null; youtube: { channelId: string; name: string; videos: Video[] }; activity?: Activity | null }

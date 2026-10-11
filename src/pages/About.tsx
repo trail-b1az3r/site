@@ -10,7 +10,7 @@ export default function About() {
         <p>A lot of my code is written with AI coding assistants, and I'd rather you read the code than take my word for what it does.</p>
       </div>
       <h2>My machine</h2>
-      <p className="prose">I train and test on a desktop: a ZOTAC ZBOX EN1080 mini PC with an Intel Core i7-7700, a GeForce GTX 1080 Mobile GPU, DDR4 memory, and a 2TB NVMe drive.</p>
+      <p className="prose">I train and test on a desktop: a ZOTAC ZBOX EN1080 mini PC with an Intel Core i7-7700, a GeForce GTX 1080 Mobile GPU, 32GB of DDR4 SO-DIMM memory, and a 2TB NVMe drive.</p>
       <h2>Outside of code</h2>
       <div className="grid three">
         <article className="card"><h3>Beat Saber and Arcaea</h3><p className="muted">Rhythm games. Arcaea shows up on my YouTube channel.</p></article>

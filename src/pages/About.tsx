@@ -13,7 +13,7 @@ export default function About() {
       <p className="prose">I train and test on a desktop: a ZOTAC ZBOX EN1080 mini PC with an Intel Core i7-7700, a GeForce GTX 1080 Mobile GPU, 32GB of DDR4 SO-DIMM memory, and a 2TB NVMe drive.</p>
       <h2>Outside of code</h2>
       <div className="grid three">
-        <article className="card"><h3>Beat Saber and Arcaea</h3><p className="muted">Rhythm games. Arcaea shows up on my YouTube channel.</p></article>
+        <article className="card"><h3>Beat Saber and Arcaea</h3><p className="muted">Rhythm games. Most of my YouTube uploads are Beat Saber.</p></article>
         <article className="card"><h3>Story games</h3><p className="muted">Long single-player games with a plot I want to finish.</p></article>
         <article className="card"><h3>Games on Steam</h3><p className="muted">My profile and a snapshot of what I've played are on the <Link to="/steam">Steam page</Link>.</p></article>
       </div>

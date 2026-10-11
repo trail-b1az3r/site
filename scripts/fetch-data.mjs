@@ -41,12 +41,41 @@ async function steam() {
   }
 }
 async function youtube() {
-  const x = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${YT_ID}`)
-  const videos = [...x.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 15).map((m) => {
-    const e = m[1], id = e.match(/<yt:videoId>([^<]+)</)?.[1]
-    return { id, title: dec(e.match(/<title>([^<]*)</)?.[1] ?? ''), published: e.match(/<published>([^<]+)</)?.[1], thumb: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }
-  }).filter((v) => v.id)
+  // Primary: the channel's RSS feed. YouTube has been returning 404 for it, so fall back to the channel page.
+  let videos = []
+  try {
+    const x = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${YT_ID}`)
+    videos = [...x.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 15).map((m) => {
+      const e = m[1], id = e.match(/<yt:videoId>([^<]+)</)?.[1]
+      return { id, title: dec(e.match(/<title>([^<]*)</)?.[1] ?? ''), published: e.match(/<published>([^<]+)</)?.[1], thumb: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }
+    }).filter((v) => v.id)
+  } catch (err) {
+    console.log(`[data] youtube feed unavailable (${err.message}), reading the channel page`)
+    videos = await youtubePage()
+  }
+  if (!videos.length) throw new Error('no videos')
   return { ...prev.youtube, channelId: YT_ID, videos }
+}
+async function youtubePage() {
+  // Dates here are approximate: the page only says "N days ago", so each date is today minus that age.
+  const h = await get(`https://www.youtube.com/channel/${YT_ID}/videos`)
+  const m = h.match(/var ytInitialData = (\{[\s\S]*?\});<\/script>/)
+  if (!m) throw new Error('no channel data on page')
+  const units = { second: 1e3, minute: 6e4, hour: 36e5, day: 864e5, week: 7 * 864e5, month: 30 * 864e5, year: 365 * 864e5 }
+  const lockups = []
+  const walk = (o) => {
+    if (Array.isArray(o)) o.forEach(walk)
+    else if (o && typeof o === 'object') { if (o.lockupViewModel) lockups.push(o.lockupViewModel); Object.values(o).forEach(walk) }
+  }
+  walk(JSON.parse(m[1]))
+  const now = Date.now()
+  return lockups.filter((l) => l.contentType === 'LOCKUP_CONTENT_TYPE_VIDEO' && l.contentId).slice(0, 15).map((l) => {
+    const id = l.contentId
+    const title = l.metadata?.lockupMetadataViewModel?.title?.content ?? ''
+    const age = JSON.stringify(l.metadata ?? {}).match(/(\d+) (second|minute|hour|day|week|month|year)s? ago/)
+    const published = age ? new Date(now - +age[1] * units[age[2]]).toISOString() : undefined
+    return { id, title: dec(title.trim()), published, thumb: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }
+  })
 }
 async function activity() {
   // Last 12 months of GitHub activity for the radar chart, counted with the search API.

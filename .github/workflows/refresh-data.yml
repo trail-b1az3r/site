@@ -1,0 +1,30 @@
+name: Refresh data
+# Refreshes the build-time snapshot (src/data/live.json): GitHub contributions and activity, Steam, YouTube and releases.
+# Each source keeps its last value if it fails. The commit does not trigger the Deploy workflow (GITHUB_TOKEN pushes don't),
+# so the Deploy workflow's daily run is what publishes the new numbers.
+on:
+  schedule: [{ cron: '17 5 * * *' }]
+  workflow_dispatch: {}
+permissions: { contents: write }
+concurrency: { group: refresh-data, cancel-in-progress: false }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run fetch-data
+        env: { GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+      - name: Commit the snapshot if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/live.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Refresh data snapshot"
+            git push
+          fi

@@ -33,7 +33,7 @@ export default function Home() {
     </Reveal></section>
     <section className="wrap" aria-labelledby="int"><Reveal><h2 id="int">Interests</h2>
       <div className="grid three">
-        <article className="card"><h3>Rhythm games</h3><p>Beat Saber and Arcaea. Arcaea shows up on my YouTube channel.</p></article>
+        <article className="card"><h3>Rhythm games</h3><p>Beat Saber and Arcaea. Most of my YouTube uploads are Beat Saber.</p></article>
         <article className="card"><h3>Story games</h3><p>Long, plot-driven games. My Steam profile has the hours.</p></article>
         <article className="card"><h3>Small models</h3><p>What a model can do at a small size, and how much of that comes from the data.</p></article>
       </div>

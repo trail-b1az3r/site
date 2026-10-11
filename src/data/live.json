@@ -1,43 +1,8 @@
 {
- "generatedAt": "2026-10-04T22:22:00.974Z",
+ "generatedAt": "2026-10-11T00:38:22.139Z",
  "contributions": {
-  "total": 2569,
+  "total": 2608,
   "days": [
-   {
-    "date": "2025-10-05",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-10-06",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-10-07",
-    "level": 1,
-    "count": 10
-   },
-   {
-    "date": "2025-10-08",
-    "level": 1,
-    "count": 1
-   },
-   {
-    "date": "2025-10-09",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-10-10",
-    "level": 1,
-    "count": 9
-   },
-   {
-    "date": "2025-10-11",
-    "level": 1,
-    "count": 1
-   },
    {
     "date": "2025-10-12",
     "level": 1,
@@ -1826,7 +1791,42 @@
    {
     "date": "2026-10-04",
     "level": 1,
-    "count": 7
+    "count": 12
+   },
+   {
+    "date": "2026-10-05",
+    "level": 1,
+    "count": 3
+   },
+   {
+    "date": "2026-10-06",
+    "level": 2,
+    "count": 24
+   },
+   {
+    "date": "2026-10-07",
+    "level": 2,
+    "count": 22
+   },
+   {
+    "date": "2026-10-08",
+    "level": 1,
+    "count": 1
+   },
+   {
+    "date": "2026-10-09",
+    "level": 1,
+    "count": 1
+   },
+   {
+    "date": "2026-10-10",
+    "level": 1,
+    "count": 4
+   },
+   {
+    "date": "2026-10-11",
+    "level": 0,
+    "count": 0
    }
   ]
  },
@@ -1835,23 +1835,131 @@
   "avatar": "https://avatars.fastly.steamstatic.com/15177e332701881a1d95d5153bab65f11ee82350_full.jpg",
   "level": 26,
   "counts": {
-   "Games": 122,
    "Badges": 14,
+   "Games": 122,
    "Screenshots": 22,
+   "Videos": 6,
    "Workshop Items": 76,
    "Reviews": 12,
-   "Guides": 2
+   "Guides": 2,
+   "Friends": 15
   },
   "favoriteGame": {
    "name": "Life is Strange™",
    "hours": 29,
    "url": "https://steamcommunity.com/app/319630"
   },
-  "fetchedAt": "2026-10-04T00:00:00.000Z"
+  "fetchedAt": "2026-10-11T00:38:21.904Z"
  },
  "youtube": {
   "channelId": "UC92jmFxND8iRU_t5I_ULbEQ",
   "name": "B1az3r",
-  "videos": []
+  "videos": [
+   {
+    "id": "7E78i68qOaw",
+    "title": "Stressed out | beat saber",
+    "published": "2026-10-03T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/7E78i68qOaw/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=7E78i68qOaw"
+   },
+   {
+    "id": "IZ7z7cI3mXc",
+    "title": "Ravings| hoyomix | beat saber | EXPERT*",
+    "published": "2026-09-30T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/IZ7z7cI3mXc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=IZ7z7cI3mXc"
+   },
+   {
+    "id": "tQJ95zeJexg",
+    "title": "Imagine Dragons Sharks Standard Expert | beat saber",
+    "published": "2026-09-28T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/tQJ95zeJexg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=tQJ95zeJexg"
+   },
+   {
+    "id": "1_nTK5_KMo8",
+    "title": "Dark seeks light beat saber | expert difficulty | my arms hurt",
+    "published": "2026-09-27T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/1_nTK5_KMo8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=1_nTK5_KMo8"
+   },
+   {
+    "id": "5S7d1ACdZJQ",
+    "title": "Goodrage | beat saber",
+    "published": "2026-09-27T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/5S7d1ACdZJQ/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5S7d1ACdZJQ"
+   },
+   {
+    "id": "fLv6VQ2i-i4",
+    "title": "The master II beat saber | expert | not official map",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/fLv6VQ2i-i4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=fLv6VQ2i-i4"
+   },
+   {
+    "id": "FsKuANnvGk0",
+    "title": "Ego death Polyphia beat saber ￼",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/FsKuANnvGk0/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=FsKuANnvGk0"
+   },
+   {
+    "id": "F9EguwPaoTc",
+    "title": "ATTITUDE by IVE | beat saber expert+",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/F9EguwPaoTc/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=F9EguwPaoTc"
+   },
+   {
+    "id": "RfB4vdw_3oU",
+    "title": "Space time (virtual riot remix )  by subtronics (feat. NEVVE) beat saber￼",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/RfB4vdw_3oU/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=RfB4vdw_3oU"
+   },
+   {
+    "id": "CBIjKvtqCus",
+    "title": "Beat saber cut the bridge Linkin park: from zero",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/CBIjKvtqCus/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=CBIjKvtqCus"
+   },
+   {
+    "id": "6gOrLCLr2KM",
+    "title": "ARK by Kayzo & 1788-L | Beat saber | expert",
+    "published": "2026-09-11T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/6gOrLCLr2KM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=6gOrLCLr2KM"
+   },
+   {
+    "id": "A_83t38zpc4",
+    "title": "Sunshine, OneRepublic, beat saber,￼",
+    "published": "2026-08-12T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/A_83t38zpc4/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=A_83t38zpc4"
+   },
+   {
+    "id": "vxOGhaar4FE",
+    "title": "LINKIN PARK | emptiness machine | beat saber￼",
+    "published": "2026-08-12T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/vxOGhaar4FE/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=vxOGhaar4FE"
+   },
+   {
+    "id": "PDYXqUI6Uw8",
+    "title": "Dj turn it up |  TAKE 1  beat saber",
+    "published": "2026-08-12T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/PDYXqUI6Uw8/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=PDYXqUI6Uw8"
+   },
+   {
+    "id": "NJwPHK6Hklo",
+    "title": "Beat saber | My Chemical Romance | Welcome To The Black Parade ￼| expert",
+    "published": "2026-08-12T00:38:22.138Z",
+    "thumb": "https://i.ytimg.com/vi/NJwPHK6Hklo/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=NJwPHK6Hklo"
+   }
+  ]
  }
 }

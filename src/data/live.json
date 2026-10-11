@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-11T00:38:22.139Z",
+ "generatedAt": "2026-10-11T00:51:49.018Z",
  "contributions": {
-  "total": 2608,
+  "total": 2610,
   "days": [
    {
     "date": "2025-10-12",
@@ -1821,7 +1821,7 @@
    {
     "date": "2026-10-10",
     "level": 1,
-    "count": 4
+    "count": 6
    },
    {
     "date": "2026-10-11",
@@ -1849,7 +1849,7 @@
    "hours": 29,
    "url": "https://steamcommunity.com/app/319630"
   },
-  "fetchedAt": "2026-10-11T00:38:21.904Z"
+  "fetchedAt": "2026-10-11T00:51:33.963Z"
  },
  "youtube": {
   "channelId": "UC92jmFxND8iRU_t5I_ULbEQ",
@@ -1858,108 +1858,856 @@
    {
     "id": "7E78i68qOaw",
     "title": "Stressed out | beat saber",
-    "published": "2026-10-03T00:38:22.138Z",
+    "published": "2026-10-03T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/7E78i68qOaw/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=7E78i68qOaw"
    },
    {
     "id": "IZ7z7cI3mXc",
     "title": "Ravings| hoyomix | beat saber | EXPERT*",
-    "published": "2026-09-30T00:38:22.138Z",
+    "published": "2026-09-30T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/IZ7z7cI3mXc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=IZ7z7cI3mXc"
    },
    {
     "id": "tQJ95zeJexg",
     "title": "Imagine Dragons Sharks Standard Expert | beat saber",
-    "published": "2026-09-28T00:38:22.138Z",
+    "published": "2026-09-28T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/tQJ95zeJexg/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=tQJ95zeJexg"
    },
    {
     "id": "1_nTK5_KMo8",
     "title": "Dark seeks light beat saber | expert difficulty | my arms hurt",
-    "published": "2026-09-27T00:38:22.138Z",
+    "published": "2026-09-27T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/1_nTK5_KMo8/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=1_nTK5_KMo8"
    },
    {
     "id": "5S7d1ACdZJQ",
     "title": "Goodrage | beat saber",
-    "published": "2026-09-27T00:38:22.138Z",
+    "published": "2026-09-27T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/5S7d1ACdZJQ/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=5S7d1ACdZJQ"
    },
    {
     "id": "fLv6VQ2i-i4",
     "title": "The master II beat saber | expert | not official map",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/fLv6VQ2i-i4/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=fLv6VQ2i-i4"
    },
    {
     "id": "FsKuANnvGk0",
     "title": "Ego death Polyphia beat saber ￼",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/FsKuANnvGk0/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=FsKuANnvGk0"
    },
    {
     "id": "F9EguwPaoTc",
     "title": "ATTITUDE by IVE | beat saber expert+",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/F9EguwPaoTc/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=F9EguwPaoTc"
    },
    {
     "id": "RfB4vdw_3oU",
     "title": "Space time (virtual riot remix )  by subtronics (feat. NEVVE) beat saber￼",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/RfB4vdw_3oU/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=RfB4vdw_3oU"
    },
    {
     "id": "CBIjKvtqCus",
     "title": "Beat saber cut the bridge Linkin park: from zero",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/CBIjKvtqCus/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=CBIjKvtqCus"
    },
    {
     "id": "6gOrLCLr2KM",
     "title": "ARK by Kayzo & 1788-L | Beat saber | expert",
-    "published": "2026-09-11T00:38:22.138Z",
+    "published": "2026-09-11T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/6gOrLCLr2KM/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=6gOrLCLr2KM"
    },
    {
     "id": "A_83t38zpc4",
     "title": "Sunshine, OneRepublic, beat saber,￼",
-    "published": "2026-08-12T00:38:22.138Z",
+    "published": "2026-08-12T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/A_83t38zpc4/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=A_83t38zpc4"
    },
    {
     "id": "vxOGhaar4FE",
     "title": "LINKIN PARK | emptiness machine | beat saber￼",
-    "published": "2026-08-12T00:38:22.138Z",
+    "published": "2026-08-12T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/vxOGhaar4FE/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=vxOGhaar4FE"
    },
    {
     "id": "PDYXqUI6Uw8",
     "title": "Dj turn it up |  TAKE 1  beat saber",
-    "published": "2026-08-12T00:38:22.138Z",
+    "published": "2026-08-12T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/PDYXqUI6Uw8/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=PDYXqUI6Uw8"
    },
    {
     "id": "NJwPHK6Hklo",
     "title": "Beat saber | My Chemical Romance | Welcome To The Black Parade ￼| expert",
-    "published": "2026-08-12T00:38:22.138Z",
+    "published": "2026-08-12T00:51:34.242Z",
     "thumb": "https://i.ytimg.com/vi/NJwPHK6Hklo/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=NJwPHK6Hklo"
    }
   ]
+ },
+ "releases": [
+  {
+   "tag_name": "v0.72.7.post1",
+   "published_at": "2026-10-08T02:11:34Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.7.post1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.7`):\n\n- docs data: restore the generated files; add only the 0.72.7.post1 entry (c351919a)\n- release: 0.72.7.post1 -- its own changelog entry and version (a1f0806d)\n- wiki/Changelog: T1 streams stop the backend when the caller leaves (0d47f715)\n- wiki: a caller leaving an inference stream stops the reply (42ae0215)\n- t1api: a caller leaving a stream stops the backend's reply (91cd2708)\n- build(deps): bump source-map-js from 1.2.1 to 1.2.2 in /docs (8a990892)\n- chore: update JSON stats (scheduled) (e69686ed)\n- Changelog: what 0.72.7 did not ship goes under Unreleased; lts/0.72.6 (4e2b9951)\n- Auto-resolve docs/public/v1 merge conflicts on pull requests (151a354a)\n- chore: refresh generated docs data and release summaries (0b752ed8)\n- chore: refresh generated docs data and release summaries (12cbbe39)\n- llama-easy: rename from llama-essir, and make it one call to use (d13f3063)\n- llama-essir: a Hugging Face Hub kernel for Llama models, auto-published (bfdd3dff)\n- Auto-update README header (hourly) (22ae2e3f)\n- wiki/Python-3.15: what was actually tested (86d95a05)\n- chore: refresh generated docs data and release summaries (5d64f723)\n- timer: perf_counter, not monotonic, for sub-tick intervals on Windows (8db6617c)\n- gather: count the URLs a level was cut off before fetching (24476662)\n- Windows and 3.15 CI: training controls, ps width, test races (ae88dc3c)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore,"
+  },
+  {
+   "tag_name": "v0.72.7",
+   "published_at": "2026-10-07T04:34:46Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.7",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.6.post4`):\n\n- chore: refresh generated docs data and release summaries (c763500c)\n- Windows: never probe a pid with os.kill(pid, 0) (55aadbb6)\n- 0.72.7: version, changelog heading and the measured benchmark results (8b25e66f)\n- Python 3.15 without torch: say so, and skip what needs it (2137d41b)\n- chore: update JSON stats (scheduled) (07034ed9)\n- Windows CI: the remaining 26, and the 3.12-3.15 matrix fixes it found (0a5db23c)\n- chore: refresh generated docs data and release summaries (e29949ad)\n- 0.72.7 step 3: Python 3.12-3.15 -- requires-python, PEP 798/799/810/831 (1a35b713)\n- 0.72.7 step 2: Windows CI -- real bugs fixed, tests made platform-honest (316780e9)\n- 0.72.7 step 2: images on the HyperNix runner; macOS/Linux CI and first Windows fixes (d595eb4a)\n- chore: refresh generated docs data and release summaries (d3fa96c1)\n- 0.72.7 step 1: link config-less models, `runner auto`, images converted on upload (203b7112)\n- chore: refresh generated docs data and release summaries (721b8155)\n- chore: refresh generated docs data and release summaries (c570f302)\n- chore: update JSON stats (scheduled) (b577f6b8)\n- chore: refresh generated docs data and release summaries (dd56f3a1)\n- chore: refresh generated docs data and release summaries (902b1354)\n- chore: refresh generated docs data and release summaries (b170ba0b)\n- chore: refresh generated docs data and release summaries (3918b1af)\n- chore: update JSON stats (scheduled) (33317b73)\n- chore: refresh generated docs data and release summaries (23555524)\n- chore: refresh generated docs data and release summaries (c886becf)\n- chore: refresh generated "
+  },
+  {
+   "tag_name": "v0.72.6.post4",
+   "published_at": "2026-10-01T14:09:19Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.6.post4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.6.post3`):\n\n- chore: refresh generated docs data and release summaries (5071a035)\n- release: 0.72.6.post4 -- its own changelog entry and version (11086864)\n- chore: refresh generated docs data and release summaries (fe0159c2)\n- hyped, hyped-pro and Neo Oven run models outside the catalog, in any layout (9d5186ed)\n- chore: update JSON stats (scheduled) (3327d117)\n- t1api: serve /inference from the HyperNix runner (4b7fe9d5)\n- convert: a Brewer model saved without config.json exports as llama, not hypernix (34ccaa58)\n- chore: refresh generated docs data and release summaries (022ee992)\n- chore: refresh generated docs data and release summaries (8bd42f6e)\n- Auto-update README header (hourly) (f6ab07fa)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.6.post3",
+   "published_at": "2026-09-30T18:01:00Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.6.post3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.6.post2`):\n\n- chore: refresh generated docs data and release summaries (944653b2)\n- chore: refresh generated docs data and release summaries (cb1f8da8)\n- docs: /code in T1-API, the .env example and the changelog (16a3c07e)\n- t1api: /code — sandboxes that run code, with perms in the web settings grammar (858eefd0)\n- chore: refresh generated docs data and release summaries (f629743c)\n- chore: update JSON stats (scheduled) (4953798e)\n- doctor: check what the package needs now; runner: pick a llama.cpp that reads the model (e010f8c9)\n- docs: bring the native and scripts READMEs and every wiki page up to date (a939eaaa)\n- Nightly: stat-bot commits alone do not make a new nightly (d08461fb)\n- chore: refresh generated docs data and release summaries (efdd8f05)\n- public-release: nightly builds behind PUBLIC_RELEASE_NIGHTLY (ac96ea38)\n- HyperLink: symlinked models load, and models can be linked from the app (99636442)\n- hypernix convert -P -Q: safetensors to any hyprslug quant in one step (448bcc9d)\n- hyprslug: Q8_K, INT3, FP8, the hnx_Q6_H hybrids, and Brewer input (7e6e59a3)\n- hypernix-t1 launch-script: -1 'CMD' replaces -$ 'CMD' (fdb60dd8)\n- Security: make Codacy scan again, and clear most Bandit findings (99ddc1ae)\n- chore: refresh generated docs data and release summaries (c820b434)\n- Brewer models run in llama.cpp: a real GGUF export, and brew that works (bf1bcf1b)\n- chore: refresh generated docs data and release summaries (8a2f4c66)\n- chore: refresh generated docs data and release summaries (ead9fb5f)\n- chore: update JSON stats (scheduled) (3b2ceb7e)\n- chore: refresh generated docs data and relea"
+  },
+  {
+   "tag_name": "v0.72.6.post2",
+   "published_at": "2026-09-27T21:33:45Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.6.post2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.6.post2`):\n\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.6.post1",
+   "published_at": "2026-09-27T07:19:11Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.6.post1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.6`):\n\n- Modify pip install to include 't1api' extra (43b0c4d0)\n- Add 't1api' to editable install in CI workflow (9cad38dc)\n- Pages changelog: read the changelog guide's format (f100cd49)\n- 0.72.6.post1: changelog entry in the updated changelog guide's format (4523433d)\n- 0.72.6.post1: changelog and docs for HyperLink on the web and the LM Studio move (e37af407)\n- HyperLink on the web: dark mode (f67439a9)\n- HyperLink on the web: the T1 server hosts it on port 37965 (59c7a9f4)\n- chore: refresh generated docs data and release summaries (6fcb21b0)\n- HyperLink: move LM Studio's model onto the HyperNix runner (bf44cc7e)\n- HyperLink: teach the model when to use its tools, not only the format (8147b3b8)\n- 0.72.6.post1: version, changelog and docs; simpler path guards (ddf4092f)\n- Runner: serve native HyperNix models; HyperNix.3-mini is the default (1c244db8)\n- HyperLink: tool calls from the models people actually run (43e651df)\n- Fix the high-rated security findings (eb12198c)\n- hypernix-t1 runner finds the server where `start` put it; add `hypernix-t1 chat` (fa59f481)\n- chore: update JSON stats (scheduled) (da66a27b)\n- chore: refresh generated docs data and release summaries (305e5341)\n- chore: refresh generated docs data and release summaries (65cb6f12)\n- chore: refresh generated docs data and release summaries (cd41dd5b)\n- chore: refresh generated docs data and release summaries (fd97dc20)\n- chore: refresh generated docs data and release summaries (83cdcbdd)\n- chore: refresh generated docs data and release summaries (e638e8f8)\n- chore: update JSON stats (scheduled) (e41dc454)\n- Add files via upload"
+  },
+  {
+   "tag_name": "v0.72.6",
+   "published_at": "2026-09-24T06:18:41Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.6",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post13`):\n\n- release: the push retry no longer mistakes a dirty tree for a conflict (d4798650)\n- chore: update generated API and code stats (ddaedee0)\n- HyperLink: memories sync from the server as they change (3fc645bf)\n- 0.72.6: a release its own tests would reject cannot be started (6abb9484)\n- tvtop-max: never a blank screen; a bounded log search that finds .runs (32762dfc)\n- hypernix v0.72.6.rc3 [skip ci] (84d28c42)\n- HyperLink: the assistant's bubble tail no longer punches a hole in it (92406910)\n- 0.72.6.rc3: a HyperLink model has its tools on the route the app uses (471493b0)\n- chore: update generated API and code stats (39faa5ae)\n- hypernix v0.72.6.rc2 [skip ci] (982f0924)\n- chore: update JSON stats (scheduled) (dfb2baef)\n- 0.72.6.rc2: tvtop-max, and HyperLink's default system prompt (c81b29d2)\n- HyperLink Siri: say what the phrases match, and name models as they are said (25d5540b)\n- hypernix v0.72.6.rc1 [skip ci] (bcff04be)\n- 0.72.6.rc1: prepare the tree, and fix what the first release run hit (848cfa6a)\n- chore: update generated API and code stats (8b5c6781)\n- 0.72.6 pt4 docs: every page current, and a test that keeps them so (4e0dfcb8)\n- HyperLink: Siri on App Intents entities, so chats and models can be named (fd74589c)\n- waiter serv: grouped letters, -b, and -u -k -c -T -Y -S -e (4d38d85a)\n- t1sdk: server info, conceal, and v2.1 kits as a credential (c76677db)\n- T1: conceal mode with 36-hour retention, and a public /server/info (0068bbf2)\n- hyped-pro finds the T1 server, and says what to do when nothing answers (1869a8b9)\n- HyperLink shell: the root check is one plain prefix tes"
+  },
+  {
+   "tag_name": "v0.72.5.post13",
+   "published_at": "2026-09-17T01:52:19Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post13",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post12`):\n\n- tests: the refusal names a command that exists (6c8fe0fa)\n- Auto-update README header (hourly) (4182dabd)\n- hyperlink: add and re-port a server; hypernix-t1 built-in-runner start (792c5d27)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post12",
+   "published_at": "2026-09-17T00:33:21Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post12",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post11`):\n\n- hyperlink: settings that could not be saved (f49a394b)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post9",
+   "published_at": "2026-09-16T20:38:06Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post9",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post8`):\n\n- ci: put the framework verdict in the summary too (d5d9b874)\n- ios: embed llama.framework, which is dynamic (99b86743)\n- docs: the entitlement did not cause the crash (2ade3a1f)\n- Auto-update README header (hourly) (7de3d059)\n- ci: say in the summary what the shipped bundle carried (5ae0e1f1)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post8",
+   "published_at": "2026-09-16T17:53:05Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post8",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post6`):\n\n- ci: a check that cannot fail is not coverage (726ddb59)\n- ios: the launch test raced the simulator, and lost (fc4b7d21)\n- ci: main's iOS builds were cancelling each other (e2fdb084)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post5",
+   "published_at": "2026-09-16T15:26:44Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post4`):\n\n- tests: the blanking tests described a session the code never saw (e72a66ea)\n- ios: a Siri phrase cannot name a String parameter (d5612d45)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post4",
+   "published_at": "2026-09-16T14:42:53Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post3`):\n\n- ios: declare the CodingKeys that nothing was synthesising (561c8499)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post3",
+   "published_at": "2026-09-16T13:59:21Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post1`):\n\n- release: stage the file the bump writes, and survive the branch moving (f9a73ca9)\n- Auto-update README header (hourly) (dd35954e)\n- ios: `?? (try await ...)` cannot work, and my guard could not see it (e177bd25)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post11",
+   "published_at": "2026-09-16T23:44:26Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post11",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post10`):\n\n- chore: update JSON stats (scheduled) (e9e53197)\n- models: reconcile \"Models registered 44\" with an empty picker (46047fec)\n- t1api: add GET /version, and stop a stale process looking like a wrong number (a75a750b)\n- models: say where the scan looked and what was in there (aad95131)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post10",
+   "published_at": "2026-09-16T22:25:27Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post10",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.post9`):\n\n- models: say where the scan looked and what was in there (9c98a24d)\n- Auto-update README header (hourly) (6ab301e3)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5.post1",
+   "published_at": "2026-09-16T13:08:26Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.post1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.dev3`):\n\n- ios: fix the Swift that did not compile, and stop CI hiding the rest (b55b6e71)\n- Auto-update README header (hourly) (1062fa94)\n- hypernix v0.72.5 [skip ci] (1ebe8469)\n- release: bump install-t1.sh with the other three, and compare files not wheels (bbc1b156)\n- A HyperNix model runner, settings, memory and tool calling (faee5534)\n- The version it actually is, the runner from the phone, and edit mode (3f05aaf6)\n- ios: the engine step was skipped on every push, and HyperLink grew four things (345cf4c1)\n- Refactor pip install command for user site-packages (2987d12e)\n- Add --break-system-packages option to pip install (8588ed07)\n- Update version numbers in install-t1.sh (b672593b)\n- quant + prot: the router the quantiser was crushing, and a screen that stayed on (3816faa3)\n- t1: run a model without LM Studio, and switch it from the API (cc94bf5a)\n- t1: index the models this machine has, and estimate what they cost (182b1efc)\n- t1: noodle over the API — files, edits, fish and archives (88c9024f)\n- t1: /chat/compact/* — making a long conversation fit again (087a6cf0)\n- Fix the CI build break, and ship an IPA that can run a model (6c58a994)\n- t1: what the server's hardware is doing, and how long it has been up (1803aaab)\n- hyperlink: one model list from every source, and a Stop that stops (030bf41b)\n- hypernix v0.72.5.dev2 [skip ci] (977f3f8d)\n- t1: HyperLink could not connect over a trusted network at all (5dce819b)\n- docs: a README that describes this release, and two claims made true (a97d518a)\n- quant: the drafts take every hyprslug target, and a tier is spelled one way (42e0b474)\n- "
+  },
+  {
+   "tag_name": "v0.72.5.dev3",
+   "published_at": "2026-09-16T02:19:06Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.dev3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.dev2`):\n\n- chore: update JSON stats (scheduled) (96ec0b03)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.5",
+   "published_at": "2026-09-16T07:05:11Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.dev3`):\n\n- release: bump install-t1.sh with the other three, and compare files not wheels (bbc1b156)\n- A HyperNix model runner, settings, memory and tool calling (faee5534)\n- The version it actually is, the runner from the phone, and edit mode (3f05aaf6)\n- ios: the engine step was skipped on every push, and HyperLink grew four things (345cf4c1)\n- Refactor pip install command for user site-packages (2987d12e)\n- Add --break-system-packages option to pip install (8588ed07)\n- Update version numbers in install-t1.sh (b672593b)\n- quant + prot: the router the quantiser was crushing, and a screen that stayed on (3816faa3)\n- t1: run a model without LM Studio, and switch it from the API (cc94bf5a)\n- t1: index the models this machine has, and estimate what they cost (182b1efc)\n- t1: noodle over the API — files, edits, fish and archives (88c9024f)\n- t1: /chat/compact/* — making a long conversation fit again (087a6cf0)\n- Fix the CI build break, and ship an IPA that can run a model (6c58a994)\n- t1: what the server's hardware is doing, and how long it has been up (1803aaab)\n- hyperlink: one model list from every source, and a Stop that stops (030bf41b)\n- hypernix v0.72.5.dev2 [skip ci] (977f3f8d)\n- t1: HyperLink could not connect over a trusted network at all (5dce819b)\n- docs: a README that describes this release, and two claims made true (a97d518a)\n- quant: the drafts take every hyprslug target, and a tier is spelled one way (42e0b474)\n- hyperlink: CarPlay, Siri, themes, the whole attachment menu, and renaming (6171f046)\n- t1 v1.0.26.9.2.3: sign up for a key without already having one (2324f0fa)\n- cli: sa"
+  },
+  {
+   "tag_name": "v0.72.5.dev2",
+   "published_at": "2026-09-15T20:52:31Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.dev2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.5.dev1`):\n\n- docs: a README that describes this release, and two claims made true (a97d518a)\n- quant: the drafts take every hyprslug target, and a tier is spelled one way (42e0b474)\n- hyperlink: CarPlay, Siri, themes, the whole attachment menu, and renaming (6171f046)\n- t1 v1.0.26.9.2.3: sign up for a key without already having one (2324f0fa)\n- cli: say what was wrong with the command, and list every command (2ced462d)\n- docs: a training guide that answers \"which of these do I use?\" (8cf552db)\n- security: API keys were world-readable; key auth leaked which key you sent (8bba7d55)\n- cctvtop: fix the Remote Desktop panel (2f92aebb)\n- noodle: actually put it inside hyped-pro (7212638b)\n- tvtoppro: decoding intro, a module system, and a stale-log watchdog (e46529b8)\n- quant: INT8/INT2/FP32/FP16/BF16 targets, dflash1, and multi-quant bundles (1a3dcf49)\n- chore: update JSON stats (scheduled) (9dc50952)\n- Add Changelog guide for hyperNix releases (d4ac3b4e)\n- Update Changelog.md (7bdfc7ce)\n- chore: update JSON stats (scheduled) (b91bb63f)\n- chore: update JSON stats (scheduled) (6a2aa26e)\n- Change development status to Beta (27fcd74e)\n- Bump rich from 14.3.4 to 15.0.0 (3436bbef)\n- Update numpy requirement from <2,>=1.21 to >=1.21,<3 (33c7fab2)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not r"
+  },
+  {
+   "tag_name": "v0.72.5.dev1",
+   "published_at": "2026-09-12T00:47:43Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.5.dev1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post20`):\n\n- Document package layout and module organization (1a789b6a)\n- chore: update JSON stats (scheduled) (1fb16430)\n- Auto-update README header (hourly) (2b300329)\n- 0.72.5 — hnx_1375bit, and quantisation-aware training (9cc43526)\n- 0.72.4.post21 — why both tiers gave a 1.4 GB file (ccbf43ee)\n- Update pyproject.toml (e463bdef)\n- Update pyproject.toml (137dacc8)\n- Update pyproject.toml (ccf76868)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post20",
+   "published_at": "2026-09-11T00:03:51Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post20",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post18`):\n\n- chore: update JSON stats (scheduled) (845cf628)\n- 0.72.4.post20 — status did not know about the autostart service (99f6b87f)\n- 0.72.4.post19 — start was reporting someone else's server (fc08f185)\n- Auto-update README header (hourly) (cbf7a1fd)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post18",
+   "published_at": "2026-09-10T17:59:50Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post18",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post17`):\n\n- 0.72.4.post18 — Brewer attention was not causal (8ff6b497)\n- Auto-update README header (hourly) (35b0dd90)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post17",
+   "published_at": "2026-09-10T06:38:55Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post17",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post16`):\n\n- 0.72.4.post17 — check and repair the files already written (28d01459)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post16",
+   "published_at": "2026-09-10T05:53:14Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post16",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post14`):\n\n- 0.72.4.post16 — ne[0], not the element count (ff4dca46)\n- Auto-update README header (hourly) (0fd4adc2)\n- 0.72.4.post15 — SecTask is macOS-only (4a3a7aa2)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post14",
+   "published_at": "2026-09-10T03:20:35Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post14",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post13`):\n\n- 0.72.4.post14 — actor isolation, and the easy fix that was wrong (58a3164)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post13",
+   "published_at": "2026-09-10T02:58:19Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post13",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post12`):\n\n- 0.72.4.post13 — `optional: true` does not mean what I thought (6c7be9e)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post12",
+   "published_at": "2026-09-10T02:31:18Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post12",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post3`):\n\n- 0.72.4.post12 — three tests that needed a server and never said so (70a1d7e)\n- 0.72.4.post11 — the engine is linked (ff63f05)\n- 0.72.4.post10 — HyperLink runs models on the phone (17a8807)\n- 0.72.4.post9 — HyperLink catches up, notifies, and searches (46f5901)\n- 0.72.4.post8 — deprecated modules say so where it can be seen (27222ca)\n- 0.72.4.post7 — the subsystem map describes the tree that exists (9a45a26)\n- 0.72.4.post6 — the release guard stopped refusing prepared releases (0031df3)\n- chore: update JSON stats (scheduled) (e37e37d)\n- 0.72.4.post5 — hypernix-t1 start left nothing running (60f45d6)\n- 0.72.4.post4 — hnx runtime, and the reason hnx gather printed the usage table (fb4e216)\n- build.sh: pin C++17, so one upstream warning stops repeating 46 times (d3eaad2)\n- Auto-update README header (hourly) (29a3103)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post3",
+   "published_at": "2026-09-09T20:31:50Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4.post1`):\n\n- 0.72.4.post2 — rebase onto the released main (c29c77d)\n- 0.72.4.dev13 — the pinned llama.cpp had stopped compiling (c375b0d)\n- 0.72.4.dev12 — Studio runs models itself, with no server (2ead0f2)\n- Auto-update README header (hourly) (6a02fc0)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4.post1",
+   "published_at": "2026-09-09T16:23:27Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4.post1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.4`):\n\n- patch_llamacpp: the traits table is two tables, and COUNT is a literal (0cfdb91)\n\n### HyperLink\n\nThe attached `HyperLink-*.ipa` is the companion iPhone app —\nchat with the models on your own machine, over the LAN or a\ntailnet. It is **unsigned** unless this release was built with\nsigning secrets, so install it with AltStore, Sideloadly, or a\nfree Xcode profile. Verify it against `SHA256SUMS.ios`.\n\nNo IPA attached means the app build did not run this time; the\nPython package is unaffected.\n"
+  },
+  {
+   "tag_name": "v0.72.4",
+   "published_at": "2026-09-09T13:51:06Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3.post8`):\n\n- hypernix v0.72.4rc1 [skip ci] (739aae7)\n- ggml-hnx self-test: name the binary suffix instead of assuming it (42abf29)\n- Three CI failures: a race, and two POSIX assumptions stated as such (7392081)\n- 0.72.4.dev11 — beta 1 full: fuse box, and a claim that did not survive measurement (e1e71f1)\n- 0.72.4.dev10 — beta 1 pt 1: gather, and hyperNix0x-v2 in Neo oven (1946651)\n- Update logo and badges in README (7f92760)\n- CUDA kernels for the sub-bit types (5b88b8b)\n- Item 13 beta 2: every GPU reader goes through one abstraction (3d07cc0)\n- Fix the website's mobile view, and sync the site from main (cda277f)\n- 0.72.4.dev9 — HyperNix Studio, and CI for both native pieces (b993ca8)\n- native/ggml-hnx — a llama.cpp that can actually read a sub-bit model (477169e)\n- Three CI failures, and the one that was worse than a failure (feab3f3)\n- chore: update JSON stats (scheduled) (744d912)\n- 0.72.4.dev8 — HyperLink knows which machine it is talking to (9b956c3)\n- Auto-update README header (hourly) (acf8b02)\n- HyperLink gets the new mark as its app icon (f535daa)\n- 0.72.4.dev7 — what training is doing, and the controls for it (3cd859b)\n- Change README header logo to dark version (a4e014c)\n- 0.72.4.dev6 — one way to ask about a GPU, whoever made it (029ca55)\n- 0.72.4.dev5 — hypernix-t1 launch-script (a8aca68)\n- 0.72.4.dev4 — trusted-network mode (ec28542)\n- 0.72.4.dev3 — one answer to \"where did this come from\" (cf741aa)\n- 0.72.4.dev2 — the registry the server actually reads (fe580bc)\n- 0.72.4.dev1 — HyperLink says why it cannot reach a server (e774f44)\n- Auto-update README header (hourly) (00d6b6e)\n-"
+  },
+  {
+   "tag_name": "v0.72.3.post8",
+   "published_at": "2026-09-04T01:46:43Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.3.post8",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3.post7`):\n\n- 0.72.3.post7 — \"it is installed already\", and it was (b57e28c)\n"
+  },
+  {
+   "tag_name": "v0.72.3.post7",
+   "published_at": "2026-09-03T23:47:24Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.3.post7",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3.post2`):\n\n- 0.72.3.post6 — hypernix-t1 index, and three more from the field (ac0053d)\n- chore: update JSON stats (scheduled) (67558a5)\n- 0.72.3.post5 — what running the shipped commands on a real box found (5037556)\n"
+  },
+  {
+   "tag_name": "v0.72.3.post2",
+   "published_at": "2026-09-03T17:43:11Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.3.post2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3.post1`):\n\n- Compare interpreter paths by which one, not by which spelling (403fe0c)\n- 0.72.3.post4 — two bugs that were invisible on the machine that wrote them (abc01a9)\n- Fix a heredoc that ran commands, and a test that only passed here (7a6e68d)\n- Run the sub-bit runtime on CUDA, ROCm, Metal and Intel (9c49726)\n- 0.72.3.post2 — hypernix-t1 fixes, example configs, wikis (75693da)\n- tvtoppro: tvtop++'s numbers, btop++'s presentation (29962c9)\n- Five new quant types, and hyprslug-headers (afb85f8)\n- Update package-ecosystem in dependabot.yml (ca23e01)\n- Update package-ecosystem in dependabot.yml (0184183)\n- Add Dependabot configuration file (cbe800a)\n"
+  },
+  {
+   "tag_name": "v0.72.3.post1",
+   "published_at": "2026-09-03T00:17:19Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.3.post1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3`):\n\n- Wire the sub-bit runtime all the way to the command line (1b575fe)\n- Sub-bit in memory *and* fast enough to run (0437bba)\n- chore: update JSON stats (scheduled) (74ff8f0)\n- Sub-bit in memory too, not only on disk (4c26095)\n- The sub-bit models can be run now (9f57892)\n- --json now means JSON on --list-tiers (b191c39)\n- hypernix v0.72.3 [skip ci] (a825a36)\n- docs: 0.72.3 pt 3 changelog (2c584d3)\n- gkey printed about one key in three thousand wrong (3c9b555)\n- Dflash2: a draft model, inside the model it drafts for (67c4d08)\n- An imatrix maker, and an imatrix reader for anyone else's (e45cdfe)\n- hyprslug writes the llama.cpp quants too, still with no llama.cpp (ac30c2f)\n- Ask bash where python3 is instead of telling it (fc269ec)\n- Windows: a path is a path, not a URL scheme or a shell escape (24012dc)\n- wake-up: train a wake word, then listen for it (2569171)\n- hnx quantize without llama-cpp-python, and generate/chat that read GGUF (260385e)\n- The IQ0.x tiers now actually quantise, and need no llama.cpp (cf14b5b)\n- SSPKID that outlives its process, and gkey create -Con (931c893)\n- T1 v1.0.2026.9.2.1: the governed inference surface (547dfa4)\n- CI: wait for every server, and let a release skip the integration gate (b3b97dd)\n- Fix formatting of rich dependency in pyproject.toml (e1efc70)\n- Fix rich dependency version constraint (0c67edd)\n- Update pyproject.toml (9599e43)\n"
+  },
+  {
+   "tag_name": "v0.72.3",
+   "published_at": "2026-09-02T14:35:26Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.3`):\n\n- docs: 0.72.3 pt 3 changelog (2c584d3)\n- gkey printed about one key in three thousand wrong (3c9b555)\n- Dflash2: a draft model, inside the model it drafts for (67c4d08)\n- An imatrix maker, and an imatrix reader for anyone else's (e45cdfe)\n- hyprslug writes the llama.cpp quants too, still with no llama.cpp (ac30c2f)\n- Ask bash where python3 is instead of telling it (fc269ec)\n- Windows: a path is a path, not a URL scheme or a shell escape (24012dc)\n- wake-up: train a wake word, then listen for it (2569171)\n- hnx quantize without llama-cpp-python, and generate/chat that read GGUF (260385e)\n- The IQ0.x tiers now actually quantise, and need no llama.cpp (cf14b5b)\n- SSPKID that outlives its process, and gkey create -Con (931c893)\n- T1 v1.0.2026.9.2.1: the governed inference surface (547dfa4)\n- CI: wait for every server, and let a release skip the integration gate (b3b97dd)\n- Fix formatting of rich dependency in pyproject.toml (e1efc70)\n- Fix rich dependency version constraint (0c67edd)\n- Update pyproject.toml (9599e43)\n"
+  },
+  {
+   "tag_name": "v0.72.2.post5",
+   "published_at": "2026-08-27T22:33:03Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.2.post5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.2-3`):\n\n- Ignore Python bytecode and tooling caches (a3fd981)\n- Do not import fastapi at collection time in the new test modules (777797f)\n- T1 v1.0.2026.8.1.1: server IDs advance, and undo/redo actually works (eab3065)\n- Keep setup.cfg's version in step with the other two (c522250)\n- T2S keys: fix the refusal, and let the phone actually enter one (8af94c4)\n"
+  },
+  {
+   "tag_name": "v0.72.2-3",
+   "published_at": "2026-08-27T03:24:38Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.2-3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.2-2`):\n\n- Fix Host ID generation to exclude special characters that conflict with SSPKIDs and V1 Server IDs (ed11d4b)\n- 0.72.2-3: waiter explains a connection failure instead of restating it (1f6c095)\n- gkey: mint v2 and v2short keys, and report what this install can mint (2218c14)\n"
+  },
+  {
+   "tag_name": "v0.72.2-2",
+   "published_at": "2026-08-27T00:33:36Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.2-2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.2`):\n\n- chore: update JSON stats (scheduled) (70f2f6f)\n- 0.72.2-2: run_tailscale.sh suggested a command that does not work (ba52f68)\n"
+  },
+  {
+   "tag_name": "v0.72.2",
+   "published_at": "2026-08-26T20:24:23Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.1`):\n\n- install-t1.sh: make --yes do what its help text promises (bb9332e)\n- install-t1.sh: an interactive installer, and two bugs it exposed (56a9e0b)\n"
+  },
+  {
+   "tag_name": "v0.72.1",
+   "published_at": "2026-08-26T06:50:46Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.0`):\n\n- docs: 0.72.1 changelog (6e05bcf)\n- scriptgen, livestream, 6-bit momentum, and the 0.72.1 test suite (7f34566)\n- noodle: multi-agent execution across nine providers (4a74abc)\n- waiter -F: find a server, and never run what it tells you to (d91c43e)\n- HyperLink: accept T2S keys, and download models from Hugging Face (4366727)\n- T1 v1.0.26.8.1.0: T2 recognition, auth undo/redo, and backups (370119d)\n- T2 keys, the quantisation registry, steamroller, and Pascal tuning (c58beaa)\n- chore: update JSON stats (scheduled) (ef51dc4)\n- chore: update JSON stats (scheduled) (475dd51)\n- chore: update JSON stats (scheduled) (7cb5daf)\n- Remove next milestone details from Roadmap (3484723)\n- chore: update JSON stats (manual run) (3fe8dbd)\n"
+  },
+  {
+   "tag_name": "v0.72.0",
+   "published_at": "2026-08-23T03:01:43Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.5`):\n\n- Regenerate egg-info for 0.72.0 (7433970)\n- iOS: a send race, a command that did not exist, and project hygiene (fed3509)\n- HyperLink for iOS, the waiter commands, and the release plumbing (797be9d)\n- T1 v1.0.26.8.0.1: the LM Studio bridge and HyperLink (c7eabfd)\n- chore: update JSON stats (scheduled) (fa8ac81)\n"
+  },
+  {
+   "tag_name": "v0.71.5",
+   "published_at": "2026-08-22T17:09:34Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4-5`):\n\n- Fix the CI failures on Windows, macOS, and one ubuntu job (5b82e76)\n- hyped-pro: cancellation that cancels; neo_oven: streaming that decodes (c1165b3)\n- 0.71.5rc2 — T1 API Beta 4, hyped-pro, and PATH setup (879b000)\n- Redesign the docs site without touching the palette (a846fc2)\n- Make hnx map, eth, and ups actually work (0d3da96)\n- hypernix v0.71.5b3 [skip ci] (ec50cbd)\n- 0.71.5b3: two bugs found by running against a real server (7a624da)\n- 0.71.5b3: deployment examples, documentation, and the security checklist (efa5fc8)\n- 0.71.5b3: Beta 3 test suite, and four bugs it found (47fd89e)\n- Fix the CI failures on macOS and Windows (7efe554)\n- Change logo image in README (572d4fa)\n- Change license to HOL-1.0 (0b7c35c)\n- Update README for clarity and formatting fixes (b83cf1b)\n- Correct changelog link in README (7e35f6e)\n- Fix link to changelog in README (f6cfe32)\n- Update roadmap for version 0.72.0 (ada8451)\n- 0.71.5b3 (part 2/3): complete SDK, full waiter TUI, smoke tool (3e60ff8)\n- 0.71.5b3 (part 1/3): T1 API production hardening core (604a834)\n- chore: update JSON stats (scheduled) (8c1fb10)\n- Add autofix-F for timer-test failures, and a router for all three (d7c0961)\n- Make the assistant do real work instead of announcing it (b24b3e4)\n- Group hypernix modules into category packages (8c25846)\n- hypernix v0.71.5postr1 [skip ci] (4721b80)\n- Adjust sleep durations in timer test cases (49b678b)\n- ci fixes (293a22c)\n- win fixes (e9bcd09)\n- win fixes (5b0268e)\n- Revise trademark section to unique naming (56c17b9)\n- Delete hypernix-ci-fixes.patch (da87eda)\n- fixes (bccc73e)\n- b2 (604ec86)\n- c"
+  },
+  {
+   "tag_name": "v0.71.4-5",
+   "published_at": "2026-08-16T23:08:41Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4-5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4-4`):\n\n- chore: update JSON stats (scheduled) (626b562)\n- chore: update JSON stats (scheduled) (5b91d75)\n- chore: update JSON stats (scheduled) (9124d73)\n- Update Changelog with unfixed known bug note (a76b5b0)\n- Revise changelog for version 0.71.5 (8a194f1)\n- pc-v6+pc-v6v, other changes (623b9f8)\n- chore: update JSON stats (scheduled) (f353068)\n- chore: update JSON stats (scheduled) (338c2c3)\n- Revise Nix family section and model notes (63e58d3)\n- Delete hypernix_fixes.diff (b974f12)\n- Delete fix-hyped-dict-logits(1).patch (b0ebbce)\n- Delete hypernix_pressure_cooker_v5_v5s.patch (dc99f2d)\n- Delete ci-fixes-v8.patch (6ae442b)\n- chore: update JSON stats (scheduled) (de808de)\n- chore: update JSON stats (manual run) (883ffdd)\n"
+  },
+  {
+   "tag_name": "v0.71.4-4",
+   "published_at": "2026-08-11T04:03:42Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4-4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4-3`):\n\n- caffine addition? (ec509fe)\n- caffine (cc1f04e)\n- Add files via upload (ed0ece6)\n- coffee (c985602)\n- Delete HyperNix-pip-main-updated.zip (7997539)\n- Add files via upload (efb76c8)\n- chore: update JSON stats (scheduled) (45559c0)\n- removed a lot of false facts and lies (f4be6d4)\n- Update changelog for integration improvement (9aefa34)\n- Update Changelog for web UI removal (f54cbd7)\n- chore: update JSON stats (scheduled) (0104f68)\n- Revise LICENSE to include dual licensing options (860d394)\n"
+  },
+  {
+   "tag_name": "v0.71.4-3",
+   "published_at": "2026-08-09T07:30:51Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4-3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4-2`):\n\n- Remove webui command from HyperNix CLI (46a3e59)\n"
+  },
+  {
+   "tag_name": "v0.71.4-2",
+   "published_at": "2026-08-09T07:20:56Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4-2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4-1`):\n\n- MEEP (35cc8d7)\n- fioerkfkjgn FUCK (73c83d0)\n- Update web UI implementation and enhance module discovery (6ae4b41)\n- chore: update JSON stats (scheduled) (ceb0b68)\n- chore: update JSON stats (scheduled) (73a7a2e)\n- chore: update JSON stats (scheduled) (9ff15c8)\n"
+  },
+  {
+   "tag_name": "v0.71.4-1",
+   "published_at": "2026-08-06T09:04:47Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4-1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.4`):\n\n- Fix license text in pyproject.toml (565db59)\n- Update license in pyproject.toml (516b315)\n- Update LICENSE file (092824a)\n- chore: update JSON stats (scheduled) (22c3fbe)\n"
+  },
+  {
+   "tag_name": "v0.71.4",
+   "published_at": "2026-08-05T18:32:10Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.71.3`):\n\n- cli fixes (af8b224)\n- Update README with fixes and new resources (dc6cbc9)\n- chore: update JSON stats (manual run) (26d1135)\n- hypernix v0.71.4rc1 [skip ci] (dd5cfc2)\n- took a bit to do the following: 1 fix hyped, 2: imprvoe it 3: add api's, 4: take a break (feb773e)\n- chore: update JSON stats (scheduled) (bbec0c4)\n- chore: update JSON stats (scheduled) (e8219d4)\n- chore: update JSON stats (scheduled) (e8b1b73)\n- chore: update JSON stats (scheduled) (2d0693a)\n- hypernix v0.71.4b7 [skip ci] (b307034)\n- next beta: major improveve ments to hyped-pro, miltilama (afb17c1)\n- chore: update JSON stats (scheduled) (98344cd)\n- chore: update JSON stats (scheduled) (050a5de)\n- hypernix v0.71.4b6 [skip ci] (cc3811d)\n- 0.71.4b6 - major hyped improvements, actual model downloading, hyped gui, and more (f983974)\n- chore: update JSON stats (scheduled) (247c1a2)\n- Add execSync import from child_process (abb8efe)\n- Remove non-existent models from local catalog (41d04f1)\n- chore: update JSON stats (scheduled) (cc9322f)\n- hypernix v0.71.4b5 [skip ci] (b0e1d53)\n- 0.71.4b5 - fixes (07c8de7)\n- chore: update JSON stats (scheduled) (6c545a3)\n- hypernix v0.71.4b4 [skip ci] (c25da80)\n- Add files via upload (883dd54)\n- Delete src/hypernix/hyped_pro.js (46baf40)\n- hypernix v0.71.4b3 [skip ci] (a1e2ae5)\n- Update package data to include JavaScript files (14fad15)\n- Add package data configuration for JavaScript files (5330224)\n- Add debug statements for Node.js and JS file checks (c73a6c0)\n- Update license from Apache-2.0 to LLU-0.1 (d54048a)\n- Add LICENSE-betaversionofit file (ede2f62)\n- Delete LICENSE (0fecb91)\n- Add"
+  },
+  {
+   "tag_name": "v0.71.3",
+   "published_at": "2026-07-22T20:48:24Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.71.2`:\n\n- Update version check to 0.71.3 (dd6f0b6)\n- 0.71.3, minor hyped improvements (67faf60)\n"
+  },
+  {
+   "tag_name": "v0.71.2",
+   "published_at": "2026-07-22T00:17:40Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.71.1`:\n\n- 0.71.2, MAJOR hyped tui improvements (488f761)\n"
+  },
+  {
+   "tag_name": "v0.71.1",
+   "published_at": "2026-07-21T23:40:17Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.71.0`:\n\n- 0.71.1 (30a263f)\n- chore: update JSON stats (scheduled) (1778daa)\n- chore: update JSON stats (scheduled) (c391796)\n- fixes (cb07ec8)\n"
+  },
+  {
+   "tag_name": "v0.71.0",
+   "published_at": "2026-07-20T19:57:13Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.71.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.70.6-3`:\n\n- fixes (f062336)\n- fixes (b697846)\n- version 0.71.0 addes t1 api keys, gatekeeper, and keymaster and more (5706fc0)\n- Change version to 0.70.6-3 and update changelog (e6f964b)\n"
+  },
+  {
+   "tag_name": "v0.70.6-3",
+   "published_at": "2026-07-20T03:44:54Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.6-3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.70.6-2`:\n\n- Rename __init.py__ to __init__.py (4852ef6)\n- Document changes for 0.70.6.1 that added major performance improvements (ca0eb48)\n- Update Changelog.md (f09661a)\n- Rename init.py to __init__.py (e930e29)\n- Add files via upload (1033931)\n- Delete src/hypernix/__init__.py (dfd546c)\n- chore: update JSON stats (scheduled) (a9cae45)\n"
+  },
+  {
+   "tag_name": "v0.70.6-2",
+   "published_at": "2026-07-19T04:28:08Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.6-2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.70.6`:\n\n- fixes for pc v5s/v5  4d bugs and freeze bugs (95f7dc0)\n- chore: update JSON stats (scheduled) (e53fdf5)\n- chore: update JSON stats (scheduled) (4300446)\n- chore: update JSON stats (scheduled) (5a29614)\n- chore: update JSON stats (scheduled) (d79fc67)\n- hyped fixes (b956c4f)\n- Revise README description for toolkit functionality (628609e)\n"
+  },
+  {
+   "tag_name": "v0.70.6",
+   "published_at": "2026-07-15T19:28:03Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.6",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.70.5`:\n\n- Delete fix-intervaltimer-should_fire.patch (13a371e)\n- timer modual fixes (e8f0547)\n- 0.70.6, pressure cooker v5s, fixes, tvtop improvements, quicker cl and more (c25e377)\n- chore: update JSON stats (scheduled) (e5356f9)\n- Update README to remove summary sentence (df2b4e0)\n- Replace incomplete usage section with properly formatted PDF documentation links (1c20ac2)\n- Update README with optimizer PDF link and image (653c6a2)\n- Add usage section to README (05d170b)\n- Add files via upload (dd29a9c)\n- Revise roadmap with new version numbers and releases (d47e8c6)\n- Fix formatting in pyproject.toml dependencies (9ba6128)\n- Pin rich package version to 14.3.4 (d689ee6)\n- Add specific version for rich package (749b6ff)\n"
+  },
+  {
+   "tag_name": "v0.70.5",
+   "published_at": "2026-07-14T06:41:10Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since `v0.70.5b3`:\n\n- Delete pressure-cooker-v5-and-fixes.patch (391f071)\n- update branch (fb09597)\n- update branch (a593203)\n- Fix linting issues and improve test coverage (f48cf01)\n- Title: Update package version and enhance optimizer capabilities (de3c1ab)\n- Fix README: complete v0.70.5 update with all content (b025bfd)\n- Update README with v0.70.5 features, training chart, new modules (d9bfe2a)\n- Add tests, wiki pages, docs updates, and training chart for v0.70.5 (3b17771)\n- Add new v0.70.5 modules: wiki_cli, vera, scavenger, mtp + tests + docs (9217494)\n- Add native MTP support to WorkshopFramework (9a88d69)\n- Add QAT support to freezer: batch sizing, VRAM profiles, prepare_for_qat (cdd5ad9)\n- Add QAT, MTP, and 6-bit quantized momentum to PressureCookerV5/V5+ (b007a33)\n- Fix tvtop++: layout flicker, small_mode, re-export _block_history_bar (28551c8)\n- chore: update JSON stats (scheduled) (eb7bced)\n- chore: update JSON stats (scheduled) (1bf0493)\n"
+  },
+  {
+   "tag_name": "v0.70.4",
+   "published_at": "2026-06-28T01:27:38Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nInitial tagged release.\n"
+  },
+  {
+   "tag_name": "v0.70.3",
+   "published_at": "2026-06-13T05:58:58Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.70.3b2`:\n\n"
+  },
+  {
+   "tag_name": "v0.70.2",
+   "published_at": "2026-06-11T18:11:36Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nInitial tagged release.\n"
+  },
+  {
+   "tag_name": "v0.70.1",
+   "published_at": "2026-06-11T18:01:03Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nInitial tagged release.\n"
+  },
+  {
+   "tag_name": "v0.70.0",
+   "published_at": "2026-06-06T05:50:15Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.70.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nInitial tagged release.\n"
+  },
+  {
+   "tag_name": "v0.61.6",
+   "published_at": "2026-06-03T02:50:21Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.6",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.5`:\n\n- update branch (2cc889f)\n"
+  },
+  {
+   "tag_name": "v0.61.5",
+   "published_at": "2026-06-03T01:16:25Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.4`:\n\n- update branch (024d4a0)\n"
+  },
+  {
+   "tag_name": "v0.61.4",
+   "published_at": "2026-06-03T00:59:34Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.3`:\n\n- update branch (30192ab)\n- update branch (851d03d)\n- update branch (63629a8)\n"
+  },
+  {
+   "tag_name": "v0.61.3",
+   "published_at": "2026-06-03T00:28:45Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.2`:\n\n- update branch (d62245e)\n- update branch (8c1687f)\n- Title: Pressure Cooker V2, Workshop Room, TTS/ASR Pipelines, and Model Support Expansion (1818f71)\n- Update README.md (335b2c2)\n- update branch (68195f9)\n- Title: Fix sudo eth command not found and improve ethanol permission handling (2f97df0)\n"
+  },
+  {
+   "tag_name": "v0.61.2",
+   "published_at": "2026-04-28T01:32:12Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.1`:\n\n- hypernix 0.61.2: tvtop btop-style multi-panel rewrite (no btop code copied) (b23ac6a)\n"
+  },
+  {
+   "tag_name": "v0.61.1",
+   "published_at": "2026-04-28T01:22:04Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.0`:\n\n- hypernix 0.61.1: hyped chat CLI + 5 bug-fix/utility passes + MAJOR hyper-Nix.2 warning (37815f9)\n"
+  },
+  {
+   "tag_name": "v0.61.0",
+   "published_at": "2026-04-28T00:23:58Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.61.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.61.0b1`:\n\n- hypernix 0.61.0: drop the b1 prerelease tag — same content as 0.61.0b1 (9543c24)\n"
+  },
+  {
+   "tag_name": "v0.60.0",
+   "published_at": "2026-04-27T23:19:09Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.60.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.52.6`:\n\n- hypernix 0.60.0: tvtop dashboard, ethanol/outage/compactor + 4 new multi-tier modules (750b936)\n"
+  },
+  {
+   "tag_name": "v0.52.6",
+   "published_at": "2026-04-27T23:03:30Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.52.6",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.52.5`:\n\n- hypernix 0.52.6: more forgiving smoke_alarm kwargs (e6ba9d3)\n"
+  },
+  {
+   "tag_name": "v0.52.5",
+   "published_at": "2026-04-27T18:10:59Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.52.5",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.52.4`:\n\n- hypernix 0.52.5: forgiving smoke_alarm kwargs + generational CPU aliases (a1484da)\n"
+  },
+  {
+   "tag_name": "v0.52.4",
+   "published_at": "2026-04-27T17:42:45Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.52.4",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.52.3`:\n\n- hypernix 0.52.4: fix CodeOven.chat too-many-dimensions-str crash (2bd8329)\n"
+  },
+  {
+   "tag_name": "v0.52.3",
+   "published_at": "2026-04-27T14:45:25Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.52.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.51.2`:\n\n- hypernix 0.51.3: quantize catalog rewrite + README/wiki refresh (abf2d91)\n- hypernix 0.51.2.1: fix broken logo on PyPI project page (dcf44d7)\n"
+  },
+  {
+   "tag_name": "v0.51.2",
+   "published_at": "2026-04-27T06:19:26Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.51.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.51.1`:\n\n- hypernix 0.51.1.1: logo file landed (6204fc8)\n"
+  },
+  {
+   "tag_name": "v0.51.1",
+   "published_at": "2026-04-27T06:12:47Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.51.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.51.0`:\n\n- hypernix 0.51.1: 5 bug-fix patches across 3 review passes + project logo wiring (601ed83)\n- Add files via upload (2d5eb37)\n- Add files via upload (05ab8ea)\n- Rename Gemini_Generated_Image_nxfdm1nxfdm1nxfd-removebg-preview.png to assets/logo/Gemini_Generated_Image_nxfdm1nxfdm1nxfd-removebg-preview.png (d23ae67)\n- Add files via upload (fe60ca7)\n"
+  },
+  {
+   "tag_name": "v0.51.0",
+   "published_at": "2026-04-27T03:29:12Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.51.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.50.0`:\n\n- hypernix 0.51.0: chat-first release — cookbook + countertop + menu + bell + flour, hyper-Nix.2 support (0fa8494)\n"
+  },
+  {
+   "tag_name": "v0.50.0",
+   "published_at": "2026-04-27T02:52:03Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.50.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.49.0`:\n\n- hypernix 0.50.0: whisk + cutting_board + apron + recipe_book + 3 bug-fix passes (f778b50)\n"
+  },
+  {
+   "tag_name": "v0.49.0",
+   "published_at": "2026-04-23T21:49:00Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.49.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.47.1`:\n\n- hypernix 0.49.0: lunchbox dataset packager + 31 coverage tests (220cf61)\n- hypernix 0.48.0: pressure_cooker rewrite — 4 device-tuned tiers + universal selector + mixed-precision / grad-accum (74c55e1)\n"
+  },
+  {
+   "tag_name": "v0.47.1",
+   "published_at": "2026-04-23T06:27:37Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.47.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.47.0`:\n\n- hypernix 0.47.1: relax install pin to torch>=1.13,<3 (a9209dc)\n"
+  },
+  {
+   "tag_name": "v0.47.0",
+   "published_at": "2026-04-23T04:35:14Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.47.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.46.1`:\n\n- hypernix 0.47.0: deep_fryer + cake_pan; 3x CPU + 3.5x GPU presets (20221c6)\n"
+  },
+  {
+   "tag_name": "v0.46.1",
+   "published_at": "2026-04-23T03:37:09Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.46.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.45.3`:\n\n- hypernix 0.46.1: nix short name prioritizes 2.7a → 2.6-mm → 2.5 (f2f7b3f)\n- hypernix 0.46.0: salt_shaker + pepper_shaker + torch_compat (old Intel Mac support) (3797bc5)\n"
+  },
+  {
+   "tag_name": "v0.45.3",
+   "published_at": "2026-04-22T23:06:04Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.45.3",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.45.2`:\n\n- docs: add wiki/Changelog.md with full per-release history (2ad7505)\n- hypernix 0.45.3: smoke_alarm accepts preset= one-string kwarg (81ee9f8)\n- Revise platform support notes in README (ac01185)\n"
+  },
+  {
+   "tag_name": "v0.45.2",
+   "published_at": "2026-04-22T19:15:11Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.45.2",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.45.1`:\n\n- hypernix 0.45.2: pans accept context_length / max_chars (e6f2cf8)\n"
+  },
+  {
+   "tag_name": "v0.45.1",
+   "published_at": "2026-04-22T17:45:51Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.45.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.45.0`:\n\n- hypernix 0.45.1: fix pans init bug where positional args bound to `name` (23f88c3)\n"
+  },
+  {
+   "tag_name": "v0.45.0",
+   "published_at": "2026-04-22T06:05:34Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.45.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.43.0`:\n\n- hypernix 0.45.0: espresso + blender + toaster + food_processor + smoker;                  more microwave / coffee_maker tiers; CLI brew (56bfc21)\n- hypernix 0.44.0: kitchen modules + pressure_cooker optimizer (c436ab5)\n"
+  },
+  {
+   "tag_name": "v0.43.0",
+   "published_at": "2026-04-22T04:23:03Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.43.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.42.0`:\n\n- hypernix 0.43.0: smoke_alarm + 16 CPU presets + 20 GPU presets (571325d)\n"
+  },
+  {
+   "tag_name": "v0.42.0",
+   "published_at": "2026-04-22T04:02:29Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.42.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.41.0`:\n\n- hypernix 0.42.0: add new_range / old_range / industrial_range labelers (a750e18)\n- docs: rewrite README + add 9-page wiki covering every subsystem (4564a1b)\n"
+  },
+  {
+   "tag_name": "v0.41.0",
+   "published_at": "2026-04-22T02:41:09Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.41.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.34.0`:\n\n- hypernix 0.41.0: CUDA 6.1 / Pascal support + real HyperNix 1.5 training script (656c467)\n- hypernix 0.40.0: add freezer (OldFreezer / NewFreezer / FlashFreezer) (f2458db)\n- hypernix 0.36.0: add old/mediocre/new fridge + HyperNix 0.1.5 evaluator example (608e0c1)\n"
+  },
+  {
+   "tag_name": "v0.34.0",
+   "published_at": "2026-04-22T01:08:02Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.34.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.31.1`:\n\n- hypernix 0.35.0: Gemma 4 / Qwen 3.5 & 3.6 / GLM 5.x + Nix collection (1bbaec4)\n- hypernix 0.34.0: AutoModel fallback + Gemma/Phi/GLM/DeepSeek/GPT-OSS presets (101a57f)\n- hypernix 0.33.0: Windows + macOS support, py3.13, runtime auto-install (63e23e3)\n"
+  },
+  {
+   "tag_name": "v0.32.0",
+   "published_at": "2026-04-21T22:45:24Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.32.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.31.0`:\n\n- hypernix 0.32.0: torch 2.7+ (incl. CUDA 11.8) + one-shot PyPI publish (317e090)\n- public-release: always upload build artifacts, not just on dry-run (08ee8ae)\n"
+  },
+  {
+   "tag_name": "v0.31.1",
+   "published_at": "2026-04-21T23:20:20Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.31.1",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n\nCommits since `v0.32.0`:\n\n- hypernix 0.32.1: fall back to slow tokenizer when tokenizers crate is too old (e0669c5)\n"
+  }
+ ],
+ "activity": {
+  "since": "2025-10-11",
+  "fetchedAt": "2026-10-11T00:51:33.733Z",
+  "commits": 1732,
+  "pullsOpened": 551,
+  "pullsMerged": 538,
+  "issuesOpened": 9,
+  "reviews": 0,
+  "reposCreated": 60
  }
 }

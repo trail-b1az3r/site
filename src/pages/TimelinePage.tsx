@@ -48,7 +48,7 @@ function Uploads() {
   if (!items.length) return loading ? <Skeleton n={3} /> : <ErrorState href={YT_URL} label="YouTube" />
   return (<>
     <div className="statrow"><Stat k="Recent uploads" v={items.length} /><Stat k="Latest" v={new Date(items[0].date).toLocaleDateString('en', { dateStyle: 'medium' })} /></div>
-    <p className="muted">The public channel feed only lists the most recent uploads.</p>
+    <p className="muted">The latest uploads. If YouTube's feed is unavailable, dates come from the channel page and are approximate.</p>
     <Timeline items={items} />
   </>)
 }
@@ -57,13 +57,12 @@ function Models() {
   const { data, loading, failed } = useFetch('models', getModels)
   const key = (id: string) => id.split('/')[1]
   const items: TItem[] = (data ?? []).map((m): TItem => {
-    const primary = FEATURED_MODELS.includes(key(m.id)), p = params(m.safetensors?.total), date = m.createdAt ?? m.lastModified ?? ''
+    const primary = FEATURED_MODELS.includes(key(m.id)), p = params(m.safetensors?.total), date = m.lastModified ?? ''
     return {
       id: m.id, date, title: key(m.id) ?? m.id, badge: primary ? 'Primary model' : 'Model', tone: primary ? 'major' : 'minor',
       href: `https://huggingface.co/${m.id}`, linkLabel: 'Open on Hugging Face',
       meta: [m.pipeline_tag, p && `${p} parameters`].filter(Boolean).join(' · ') || undefined,
       lines: [`${num(m.downloads)} downloads · ${num(m.likes)} likes`, m.lastModified && `Last updated ${ago(m.lastModified)}`, m.tags?.length ? `Tags: ${m.tags.slice(0, 5).join(', ')}` : ''].filter(Boolean) as string[],
-      note: m.createdAt ? undefined : 'Shown by last update, because the creation date was not available.',
     }
   }).filter(i => i.date).sort(byDate)
   if (!items.length) return loading ? <Skeleton n={3} /> : <ErrorState href={`https://huggingface.co/${HF_USER}`} label={failed ? 'Hugging Face' : 'Hugging Face (no public models yet)'} />

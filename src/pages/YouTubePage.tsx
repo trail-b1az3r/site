@@ -7,7 +7,7 @@ export default function YouTubePage() {
   const { data, loading } = useFetch('videos', getVideos)
   const videos = data?.length ? data : live.youtube.videos
   return (
-    <Page title="YouTube" lead="My channel (@Rmcgugan): Arcaea, art and other uploads.">
+    <Page title="YouTube" lead="My channel (@Rmcgugan): mostly Beat Saber, with some Arcaea, ULTRAKILL and the occasional art upload.">
       <Seo title="YouTube" desc="Latest videos from the @Rmcgugan YouTube channel." />
       <p><a className="btn" href={YT_URL} target="_blank" rel="noreferrer">Visit the channel</a></p>
       {videos.length ? (

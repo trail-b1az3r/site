@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-28T11:23:53.526Z",
+ "generatedAt": "2026-10-29T15:28:56.819Z",
  "contributions": {
-  "total": 3037,
+  "total": 3093,
   "days": [
    {
     "date": "2025-10-26",
@@ -1836,18 +1836,23 @@
    {
     "date": "2026-10-27",
     "level": 4,
-    "count": 76
+    "count": 80
    },
    {
     "date": "2026-10-28",
+    "level": 4,
+    "count": 50
+   },
+   {
+    "date": "2026-10-29",
     "level": 1,
-    "count": 1
+    "count": 3
    }
   ]
  },
  "steam": {
   "name": "blazer",
-  "avatar": "https://avatars.fastly.steamstatic.com/15177e332701881a1d95d5153bab65f11ee82350_full.jpg",
+  "avatar": "https://avatars.akamai.steamstatic.com/15177e332701881a1d95d5153bab65f11ee82350_full.jpg",
   "level": 26,
   "counts": {
    "Badges": 14,
@@ -1864,7 +1869,7 @@
    "hours": 29,
    "url": "https://steamcommunity.com/app/319630"
   },
-  "fetchedAt": "2026-10-28T11:23:38.146Z"
+  "fetchedAt": "2026-10-29T15:28:41.196Z"
  },
  "youtube": {
   "channelId": "UC92jmFxND8iRU_t5I_ULbEQ",
@@ -1978,6 +1983,14 @@
   ]
  },
  "releases": [
+  {
+   "tag_name": "v0.72.8",
+   "published_at": "2026-10-28T18:01:22Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.72.8",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.7.post1`):\n\n- torch_shim: never install torch for --help, under HYPERNIX_AUTO_INSTALL=0, or in tests (43f2bda4)\n- torch_shim: ask PyPI through hypernix.security.safeurl (00df2d64)\n- ci: the PEP 831 frame-pointer check prints the prologue it reads (5123e971)\n- torch_shim test: assert the whole URL, not a host substring (e6d894cb)\n- 0.72.8 (0404ebd2)\n- Python 3.15: torch from a shim, stable if PyTorch has the wheel, else nightly (10317ac6)\n- hypernix v0.72.8rc1 [skip ci] (af397a46)\n- CI fixes for PR #185: a log-follow race, mypy, a bare except (baa7d954)\n- chore: refresh generated docs data and release summaries (05a8b49e)\n- latest: log the kind of Hub failure, not the request (9ba5c10c)\n- 0.72.8rc1 (685653c7)\n- scriptgen: a script that runs, a redesigned window, more options (f10ee30c)\n- chore: refresh generated docs data and release summaries (602589dd)\n- Stats page: downloads by HyperNix version (50fbf14a)\n- hnx download --latest; the runner fetches and registers HyperNix releases (d2a47609)\n- chore: update JSON stats (scheduled) (49c52c75)\n- Runners: CPU offloading (802be03d)\n- Website: a security page, rescanned on every Pages build (70069443)\n- Security: the critical and high CodeQL alerts from the alert export (9531f68f)\n- chore: refresh generated docs data and release summaries (945aa8c4)\n- hypernix v0.72.8a5 [skip ci] (32b0f96c)\n- chore: refresh generated docs data and release summaries (5c5503f8)\n- hnx-t1 setup --dry-run: the file on stdout again, with its secrets redacted (05eae954)\n- fix(system): drain final job logs before completion marker (b27d021d)\n- fix(t1api): keep setup dry-run"
+  },
   {
    "tag_name": "v0.72.7.post1",
    "published_at": "2026-10-08T02:11:34Z",
@@ -2716,11 +2729,11 @@
   }
  ],
  "activity": {
-  "since": "2025-10-28",
-  "fetchedAt": "2026-10-28T11:23:37.773Z",
-  "commits": 2050,
-  "pullsOpened": 649,
-  "pullsMerged": 634,
+  "since": "2025-10-29",
+  "fetchedAt": "2026-10-29T15:28:40.830Z",
+  "commits": 2090,
+  "pullsOpened": 664,
+  "pullsMerged": 650,
   "issuesOpened": 12,
   "reviews": 0,
   "reposCreated": 63

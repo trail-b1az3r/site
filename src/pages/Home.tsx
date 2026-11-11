@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <>
-      <Seo title="Home" desc="Rayla (trail-b1az3r): small language models, the HyperNix training toolkit and Beat Saber Quest mods, built and published in public." />
+      <Seo title="Home" desc="Rayla (trail-b1az3r): small language models, the HyperNix training toolkit and Beat Saber Quest mods." />
       <section ref={spotlightRef} className="hero">
         <HeroGrid />
         <div className="wrap hero-inner">
@@ -54,7 +54,7 @@ export default function Home() {
                 <span className="h-line"><span>Small models.</span></span>
                 <span className="h-line"><span>Ported <em>worlds</em>.</span></span>
               </h1>
-              <p className="lead">I’m Rayla. I train and publish small language models, build the toolkit around them, and port Beat Saber’s Vivify effects to the Quest. The base model was trained on one GTX 1080 desktop, and the work is public.</p>
+              <p className="lead">I’m Rayla. I create small language models.</p>
               <div className="row hero-actions">
                 <a className="btn" href="#work">Selected work <ArrowDown size={15} aria-hidden="true" /></a>
                 <Link className="btn ghost" to="/resume">Résumé</Link>
@@ -83,7 +83,7 @@ export default function Home() {
           <Reveal delay={80}><article className="card model-more">
             <p className="kicker">The rest</p>
             <h3>{models.loading || models.failed ? 'Public models' : `${models.data?.length ?? 0} public models`}</h3>
-            <p>Most are experiments: small pretraining runs, chat tunes, quantised builds and things that did not work. The two above are the ones I would read first.</p>
+            <p>Most are experiments: small pretraining runs, chat tunes, quantised builds and things that did not work. The two above are the ones i like most.</p>
             <p className="mono model-more-note">Everything is on Hugging Face under <span>ray0rf1re</span>.</p>
             <Link className="text-link mono" to="/ai">Browse all models <ArrowRight size={14} aria-hidden="true" /></Link>
           </article></Reveal>
@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       <section className="wrap section" id="activity">
-        <Reveal><SectionHead n="03" title="Signals" note="The public trail, last 12 months." /></Reveal>
+        <Reveal><SectionHead n="03" title="Signals" note="last 12 months." /></Reveal>
         <div className="signal-grid">
           <Reveal><div className="card radar-card">
             <p className="card-title mono">GitHub activity / 12 months</p>
@@ -142,7 +142,7 @@ export default function Home() {
       </section>
 
       <section className="wrap section" id="elsewhere">
-        <Reveal><SectionHead n="06" title="Elsewhere" note="Where the work lives." /></Reveal>
+        <Reveal><SectionHead n="06" title="Elsewhere" note="Work." /></Reveal>
         <div className="links-list">
           {PROFILES.map((p, i) => (
             <Reveal key={p.id} delay={i * 60}><a className="link-row" href={p.href} target="_blank" rel="noreferrer">

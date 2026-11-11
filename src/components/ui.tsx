@@ -8,7 +8,7 @@ function meta(sel: string, attr: string, val: string, create: () => HTMLElement)
 }
 export function Seo({ title, desc }: { title: string; desc: string }) {
   useEffect(() => {
-    const full = title === 'Home' ? 'Rayla (trail-b1az3r) — software, AI and language models' : `${title} — Rayla`
+    const full = title === 'Home' ? 'Rayla (trail-b1az3r) — small models, ported worlds' : `${title} — Rayla`
     document.title = full
     const m = (name: string, key: 'name' | 'property') => meta(`meta[${key}="${name}"]`, 'content', '', () => { const e = document.createElement('meta'); e.setAttribute(key, name); return e })
     const set = (name: string, key: 'name' | 'property', v: string) => { m(name, key); document.head.querySelector(`meta[${key}="${name}"]`)?.setAttribute('content', v) }
@@ -22,9 +22,17 @@ export const Skeleton = ({ n = 3 }: { n?: number }) => (
   <div className="grid" aria-busy="true" aria-label="Loading">{Array.from({ length: n }, (_, i) => <div key={i} className="card skel" />)}</div>
 )
 export function ErrorState({ href, label }: { href: string; label: string }) {
-  return <p className="notice" role="status">Live data unavailable — <a href={href} target="_blank" rel="noreferrer">view {label} directly <ExternalLink size={14} aria-hidden /></a></p>
+  return <p className="notice" role="status">Live data unavailable — <a href={href} target="_blank" rel="noreferrer">view {label} directly <ExternalLink size={14} aria-hidden="true" /></a></p>
 }
 export const Stat = ({ k, v }: { k: string; v: ReactNode }) => <div className="stat"><b>{typeof v === 'number' ? <CountUp to={v} /> : v}</b><span>{k}</span></div>
-export const Page = ({ title, lead, children }: { title: string; lead?: string; children: ReactNode }) => (
-  <div className="wrap"><header className="phead"><h1>{title}</h1>{lead && <p className="lead">{lead}</p>}</header>{children}</div>
+export const Page = ({ title, lead, kicker, children }: { title: string; lead?: string; kicker?: string; children: ReactNode }) => (
+  <div className="wrap page-shell">
+    <header className="phead">
+      <p className="phead-kicker mono">{kicker ?? 'Rayla / trail-b1az3r'}</p>
+      <h1>{title}</h1>
+      {lead && <p className="lead">{lead}</p>}
+      <span className="phead-rule" aria-hidden="true" />
+    </header>
+    <div className="page-body">{children}</div>
+  </div>
 )

@@ -14,6 +14,16 @@ export function useFetch<T>(key: string, load: () => Promise<T>): Res<T> {
 }
 export function useTheme() {
   const [t, setT] = useState(() => document.documentElement.dataset.theme || 'dark')
-  const toggle = () => { const n = t === 'dark' ? 'light' : 'dark'; setT(n); document.documentElement.dataset.theme = n; try { localStorage.setItem('theme', n) } catch { /* ignore */ } }
+  const toggle = (origin?: { clientX: number; clientY: number }) => {
+    const n = t === 'dark' ? 'light' : 'dark'
+    const apply = () => { setT(n); document.documentElement.dataset.theme = n; try { localStorage.setItem('theme', n) } catch { /* ignore */ } }
+    const doc = document as Document & { startViewTransition?: (cb: () => void) => unknown }
+    const motion = typeof matchMedia === 'function' && !matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (doc.startViewTransition && motion) {
+      document.documentElement.style.setProperty('--vt-x', `${origin?.clientX ?? innerWidth / 2}px`)
+      document.documentElement.style.setProperty('--vt-y', `${origin?.clientY ?? innerHeight / 2}px`)
+      doc.startViewTransition(apply)
+    } else apply()
+  }
   return { theme: t, toggle }
 }

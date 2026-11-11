@@ -1,42 +1,51 @@
 import { Link } from 'react-router-dom'
-import { Star, GitFork, Download, Heart, Github, Youtube, Gamepad2, Boxes, ExternalLink } from 'lucide-react'
+import { ArrowUpRight, Star, GitFork, Download, Heart, Github, Youtube, Gamepad2, Boxes, ExternalLink } from 'lucide-react'
 import type { Repo, HfModel } from '../types'
 import { ago, num, params } from '../lib/format'
 import { GH_USER } from '../services/github'
+import { MODEL_META } from '../data/featured'
 
 export const Stats = ({ r }: { r: Repo }) => (
-  <p className="stats"><span><Star size={14} aria-label="stars" />{num(r.stargazers_count)}</span><span><GitFork size={14} aria-label="forks" />{num(r.forks_count)}</span>
+  <p className="stats"><span><Star size={13} aria-label="stars" />{num(r.stargazers_count)}</span><span><GitFork size={13} aria-label="forks" />{num(r.forks_count)}</span>
     {r.language && <span>{r.language}</span>}<span>Updated {ago(r.pushed_at)}</span></p>
 )
 export const ProjectCard = ({ r }: { r: Repo }) => (
-  <article className="card"><h3><a href={r.html_url} target="_blank" rel="noreferrer">{r.name}</a></h3>
+  <article className="card project-card"><h3><a href={r.html_url} target="_blank" rel="noreferrer">{r.name}</a></h3>
     <p>{r.description ?? 'No description provided.'}</p><Stats r={r} />
     <p className="stats"><span>{r.open_issues_count} open issues</span><span>{num(r.size)} KB</span></p></article>
 )
 export function FeaturedProjectCard({ name, slug, repo }: { name: string; slug: string; repo?: Repo | null }) {
   return (
     <article className="flagship">
+      <p className="kicker">Flagship project</p>
       <h3>{name}</h3>
       <p className="big">{repo ? repo.description ?? 'No description provided on GitHub.' : 'Live repository details are unavailable right now.'}</p>
       {repo && <Stats r={repo} />}
       <p className="row"><Link className="btn" to={`/projects/${slug}`}>Project details</Link>
-        <a className="btn ghost" href={`https://github.com/${GH_USER}/${name}`} target="_blank" rel="noreferrer">Open on GitHub <ExternalLink size={14} aria-hidden /></a></p>
+        <a className="btn ghost" href={`https://github.com/${GH_USER}/${name}`} target="_blank" rel="noreferrer">Open on GitHub <ExternalLink size={14} aria-hidden="true" /></a></p>
     </article>
   )
 }
-export function ModelCard({ m, primary }: { m: HfModel; primary?: boolean }) {
-  const [author, name] = m.id.split('/'); const p = params(m.safetensors?.total)
+export function ModelCard({ m, primary, fallback }: { m?: HfModel | null; primary?: boolean; fallback?: string }) {
+  const name = m ? m.id.split('/')[1] : fallback ?? 'Model'
+  const meta = name ? MODEL_META[name] : undefined
+  const href = m ? `https://huggingface.co/${m.id}` : name ? `https://huggingface.co/ray0rf1re/${name}` : 'https://huggingface.co/ray0rf1re'
+  const p = m ? params(m.safetensors?.total) : null
   return (
-    <article className={primary ? 'flagship' : 'card'}>
-      <h3><a href={`https://huggingface.co/${m.id}`} target="_blank" rel="noreferrer">{name ?? m.id}</a></h3>
-      <p className="muted">by {author}{m.pipeline_tag ? ` · ${m.pipeline_tag}` : ''}{p ? ` · ${p} parameters` : ''}</p>
-      <p className="stats"><span><Download size={14} aria-label="downloads" />{num(m.downloads)}</span><span><Heart size={14} aria-label="likes" />{num(m.likes)}</span><span>Updated {ago(m.lastModified)}</span></p>
-      {!!m.tags?.length && <p className="tags">{m.tags.slice(0, 5).map(t => <span key={t}>{t}</span>)}</p>}
+    <article className={`${primary ? 'flagship' : 'card'} model-card`}>
+      {meta && <p className="kicker">{meta.kind}</p>}
+      <h3><a href={href} target="_blank" rel="noreferrer">{name}</a></h3>
+      <p className="muted">by ray0rf1re{m?.pipeline_tag ? ` · ${m.pipeline_tag}` : ''}{p ? ` · ${p} parameters` : ''}</p>
+      {meta && <p className="model-summary">{meta.summary}</p>}
+      {m ? <p className="stats"><span><Download size={13} aria-label="downloads" />{num(m.downloads)}</span><span><Heart size={13} aria-label="likes" />{num(m.likes)}</span><span>Updated {ago(m.lastModified)}</span></p>
+        : <p className="stats"><span>Live details load from Hugging Face</span></p>}
+      {!!m?.tags?.length && <p className="tags">{m.tags.slice(0, 5).map(t => <span key={t}>{t}</span>)}</p>}
+      <p className="card-link mono"><a href={href} target="_blank" rel="noreferrer">Model card <ArrowUpRight size={13} aria-hidden="true" /></a></p>
     </article>
   )
 }
 const ICONS = { github: Github, hf: Boxes, youtube: Youtube, steam: Gamepad2 }
 export function ProfileCard({ k, name, handle, href, desc }: { k: keyof typeof ICONS; name: string; handle: string; href: string; desc: string }) {
   const I = ICONS[k]
-  return <a className={`card profile p-${k}`} href={href} target="_blank" rel="noreferrer"><I size={28} aria-hidden /><h3>{name}</h3><p className="muted">{handle}</p><p>{desc}</p></a>
+  return <a className={`card profile p-${k}`} href={href} target="_blank" rel="noreferrer"><I size={26} aria-hidden="true" /><h3>{name}</h3><p className="muted">{handle}</p><p>{desc}</p><span className="profile-arrow" aria-hidden="true"><ArrowUpRight size={16} /></span></a>
 }

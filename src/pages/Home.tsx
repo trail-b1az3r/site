@@ -1,45 +1,160 @@
 import { Link } from 'react-router-dom'
+import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react'
 import { useFetch } from '../hooks/useFetch'
-import { FEATURED, getRepos, GH_USER } from '../services/github'
-import { FEATURED_MODELS, getModels, HF_USER } from '../services/huggingface'
-import { FeaturedProjectCard, ModelCard, ProfileCard } from '../components/cards'
+import { getRepos } from '../services/github'
+import { FEATURED_MODELS, getModels } from '../services/huggingface'
+import { toReleases } from '../lib/releases'
+import { ModelCard } from '../components/cards'
 import { ActivityRadar } from '../components/Radar'
-import { ErrorState, Seo, Skeleton } from '../components/ui'
-import { HeroGrid, Reveal } from '../components/scroll'
-import { PROFILES, TAGS } from '../data/profiles'
+import Contributions from '../components/Contributions'
+import { Seo, Stat } from '../components/ui'
+import { HeroGrid, Reveal, useSpotlight } from '../components/scroll'
+import { LocalClock, ModelSpotlight, SectionHead, SignalPanel, Ticker, WorkRow } from '../components/lab'
+import { ServiceLine } from '../components/services'
+import { useServiceStatus } from '../hooks/useServiceStatus'
+import { ANISETTE, T1 } from '../data/services'
+import { MODEL_META, PROJECT_META } from '../data/featured'
+import { PROFILES } from '../data/profiles'
+import { live } from '../data/live'
+
+const TICKER = [
+  'From-scratch small models', 'Chat tuning', 'Training tooling', 'Beat Saber Quest mods',
+  'DirectX → GLSL', 'Open source', 'One GTX 1080',
+]
+
 export default function Home() {
-  const repos = useFetch('repos', getRepos), models = useFetch('models', getModels)
-  const feat = (models.data ?? []).filter(m => FEATURED_MODELS.includes(m.id.split('/')[1]))
-  return (<>
-    <Seo title="Home" desc="Rayla (trail-b1az3r): software, language models, interests and a short résumé, with live GitHub and Hugging Face data." />
-    <section className="hero wrap"><HeroGrid />
-      <div className="split">
-        <div>
-          <p className="handle">trail-b1az3r</p>
-          <h1>Hi, I'm Rayla.</h1>
-          <p className="lead">I write software, train and publish small language models, and make things for games. This site holds my projects, my notes and my résumé.</p>
-          <p className="row"><Link className="btn" to="/projects">Projects</Link><Link className="btn ghost" to="/ai">Models</Link><Link className="btn ghost" to="/resume">Résumé</Link></p>
+  const repos = useFetch('repos', getRepos)
+  const models = useFetch('models', getModels)
+  const key = (id: string) => id.split('/')[1]
+  const latest = models.data?.find(m => key(m.id) === FEATURED_MODELS[0]) ?? null
+  const base = models.data?.find(m => key(m.id) === FEATURED_MODELS[1]) ?? null
+  const release = live.releases?.[0] ?? null
+  const stableReleases = toReleases(live.releases ?? []).length
+  const video = live.youtube.videos?.[0] ?? null
+  const activity = live.activity ?? null
+  const spotlightRef = useSpotlight<HTMLElement>()
+  const { t1, anisette } = useServiceStatus()
+  const repo = (name: string) => repos.data?.find(r => r.name.toLowerCase() === name.toLowerCase()) ?? null
+
+  return (
+    <>
+      <Seo title="Home" desc="Rayla (trail-b1az3r): small language models, the HyperNix training toolkit and Beat Saber Quest mods, built and published in public." />
+      <section ref={spotlightRef} className="hero">
+        <HeroGrid />
+        <div className="wrap hero-inner">
+          <div className="hero-meta mono">
+            <span>Trail-b1az3r / personal lab</span>
+            <span className="hero-meta-mid">Software · small models · Quest mods</span>
+            <LocalClock label="your local time" />
+          </div>
+          <div className="hero-grid">
+            <div className="hero-copy">
+              <p className="eyebrow"><span className="eyebrow-dot" aria-hidden="true" />Rayla — software, small language models</p>
+              <h1>
+                <span className="h-line"><span>Small models.</span></span>
+                <span className="h-line"><span>Ported <em>worlds</em>.</span></span>
+              </h1>
+              <p className="lead">I’m Rayla. I train and publish small language models, build the toolkit around them, and port Beat Saber’s Vivify effects to the Quest. The base model was trained on one GTX 1080 desktop, and the work is public.</p>
+              <div className="row hero-actions">
+                <a className="btn" href="#work">Selected work <ArrowDown size={15} aria-hidden="true" /></a>
+                <Link className="btn ghost" to="/resume">Résumé</Link>
+                <a className="text-link mono" href="https://github.com/trail-b1az3r" target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={14} aria-hidden="true" /></a>
+              </div>
+            </div>
+            <SignalPanel model={latest} release={release} video={video} activity={activity} contributions={live.contributions} releases={stableReleases} snapshot={live.generatedAt} />
+          </div>
         </div>
-        <div className="card radar-card"><h2 className="card-title">GitHub, last 12 months</h2><ActivityRadar legend={false} /></div>
-      </div>
-      <p className="tags">{TAGS.map(t => <span key={t}>{t}</span>)}</p>
-    </section>
-    <section className="wrap" aria-labelledby="fp"><Reveal><h2 id="fp">Projects</h2>
-      <div className="grid two">{FEATURED.map(f => <FeaturedProjectCard key={f.name} {...f} repo={repos.data?.find(r => r.name.toLowerCase() === f.name.toLowerCase())} />)}</div>
-    </Reveal></section>
-    <section className="wrap" aria-labelledby="fm"><Reveal><h2 id="fm">Models</h2>
-      {models.loading ? <Skeleton n={2} /> : feat.length ? <div className="grid two">{feat.map(m => <ModelCard key={m.id} m={m} primary />)}</div>
-        : <ErrorState href={`https://huggingface.co/${HF_USER}`} label="Hugging Face" />}
-    </Reveal></section>
-    <section className="wrap" aria-labelledby="int"><Reveal><h2 id="int">Interests</h2>
-      <div className="grid three">
-        <article className="card"><h3>Rhythm games</h3><p>Beat Saber and Arcaea. Most of my YouTube uploads are Beat Saber.</p></article>
-        <article className="card"><h3>Story games</h3><p>Long, plot-driven games. My Steam profile has the hours.</p></article>
-        <article className="card"><h3>Small models</h3><p>What a model can do at a small size, and how much of that comes from the data.</p></article>
-      </div>
-    </Reveal></section>
-    <section className="wrap" aria-labelledby="on"><Reveal><h2 id="on">Elsewhere</h2>
-      <div className="grid four">{PROFILES.map(p => <ProfileCard key={p.id} k={p.id} {...p} />)}</div>
-      {repos.failed && <ErrorState href={`https://github.com/${GH_USER}`} label="GitHub" />}
-    </Reveal></section></>)
+        <Ticker items={TICKER} />
+      </section>
+
+      <section className="wrap section" id="work">
+        <Reveal><SectionHead n="01" title="Selected work" note="Two projects I keep coming back to. Both are public." /></Reveal>
+        <div className="work-list">
+          {PROJECT_META.map((p, i) => <WorkRow key={p.slug} index={i + 1} project={p} repo={repo(p.name)} />)}
+        </div>
+        <Reveal><p className="section-more mono"><Link to="/projects">All repositories <ArrowRight size={14} aria-hidden="true" /></Link><Link to="/timeline">Release history <ArrowRight size={14} aria-hidden="true" /></Link></p></Reveal>
+      </section>
+
+      <section className="wrap section" id="models">
+        <Reveal><SectionHead n="02" title="Models" note="Published on Hugging Face. Small on purpose." /></Reveal>
+        <ModelSpotlight name="hyperNix-3.1-mini_c" model={latest} meta={MODEL_META['hyperNix-3.1-mini_c']} />
+        <div className="model-sub">
+          <Reveal><ModelCard m={base ?? undefined} primary={false} fallback="HyperNix.3-mini" /></Reveal>
+          <Reveal delay={80}><article className="card model-more">
+            <p className="kicker">The rest</p>
+            <h3>{models.loading || models.failed ? 'Public models' : `${models.data?.length ?? 0} public models`}</h3>
+            <p>Most are experiments: small pretraining runs, chat tunes, quantised builds and things that did not work. The two above are the ones I would read first.</p>
+            <p className="mono model-more-note">Everything is on Hugging Face under <span>ray0rf1re</span>.</p>
+            <Link className="text-link mono" to="/ai">Browse all models <ArrowRight size={14} aria-hidden="true" /></Link>
+          </article></Reveal>
+        </div>
+      </section>
+
+      <section className="wrap section" id="activity">
+        <Reveal><SectionHead n="03" title="Signals" note="The public trail, last 12 months." /></Reveal>
+        <div className="signal-grid">
+          <Reveal><div className="card radar-card">
+            <p className="card-title mono">GitHub activity / 12 months</p>
+            <ActivityRadar />
+          </div></Reveal>
+          <div className="signal-stack">
+            <Reveal delay={60}><div className="statrow statrow-tight">
+              <Stat k="Contributions" v={live.contributions?.total ?? 0} />
+              <Stat k="Commits" v={activity?.commits ?? 0} />
+              <Stat k="PRs merged" v={activity?.pullsMerged ?? 0} />
+              <Stat k="Stable releases" v={stableReleases} />
+              <Stat k="Public models" v={models.loading ? '—' : models.data?.length ?? 0} />
+            </div></Reveal>
+            {live.contributions && <Reveal delay={120}><div className="card heat-card"><Contributions {...live.contributions} /><p className="mono heat-source">Source: GitHub public contribution calendar. Snapshot refreshed daily.</p></div></Reveal>}
+            <Reveal delay={160}><p className="section-more mono"><Link to="/github">More on GitHub <ArrowRight size={14} aria-hidden="true" /></Link></p></Reveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="wrap section" id="services">
+        <Reveal><SectionHead n="04" title="Live services" note="Not a mock: two servers answering from the home desktop." /></Reveal>
+        <div className="svc-lines">
+          <Reveal><ServiceLine to="/services" index="01" name="Anisette v3" role="SideStore signing helper" probe={anisette} endpoint={ANISETTE.endpoint} /></Reveal>
+          <Reveal delay={70}><ServiceLine to="/services" index="02" name="HyperNix T1" role="Model API + HyperLink" probe={t1} endpoint={T1.endpoint} /></Reveal>
+        </div>
+        <Reveal><p className="section-more mono"><Link to="/services">Service notes and endpoints <ArrowRight size={14} aria-hidden="true" /></Link><span>Checked from your browser, just now</span></p></Reveal>
+      </section>
+
+      <section className="wrap section" id="off">
+        <Reveal><SectionHead n="05" title="Off the clock" note="The rest of the week." /></Reveal>
+        <div className="off-grid">
+          <Reveal><article className="card off-card"><span className="mono off-n">01</span><h3>Rhythm games</h3><p>Beat Saber and Arcaea. Most of my YouTube uploads are Beat Saber — including the ones below.</p></article></Reveal>
+          <Reveal delay={70}><article className="card off-card"><span className="mono off-n">02</span><h3>Story games</h3><p>Long, plot-driven single-player games. Steam’s snapshot lists Life is Strange as the favourite{live.steam?.counts.Games ? `, and ${live.steam.counts.Games} games in the library` : ''}.</p></article></Reveal>
+          <Reveal delay={140}><article className="card off-card"><span className="mono off-n">03</span><h3>The desktop</h3><p>A ZOTAC ZBOX EN1080: i7-7700, GTX 1080 Mobile, 32GB RAM, 2TB NVMe. The base HyperNix model was trained on the 1080.</p></article></Reveal>
+        </div>
+        {live.youtube.videos.length > 0 && <>
+          <div className="uploads-head"><h3 className="mono">Latest uploads</h3><Link className="mono" to="/youtube">All videos <ArrowRight size={14} aria-hidden="true" /></Link></div>
+          <div className="uploads">
+            {live.youtube.videos.slice(0, 3).map((v, i) => (
+              <a key={v.id} className="upload" href={v.url} target="_blank" rel="noreferrer">
+                <span className="upload-img"><img src={v.thumb} alt="" loading="lazy" /><span className="play" aria-hidden="true">▶</span></span>
+                <span className="upload-meta mono">{String(i + 1).padStart(2, '0')} · {v.published ? new Date(v.published).toLocaleDateString('en', { day: '2-digit', month: 'short' }) : 'YouTube'}</span>
+                <span className="upload-title">{v.title}</span>
+              </a>
+            ))}
+          </div>
+        </>}
+      </section>
+
+      <section className="wrap section" id="elsewhere">
+        <Reveal><SectionHead n="06" title="Elsewhere" note="Where the work lives." /></Reveal>
+        <div className="links-list">
+          {PROFILES.map((p, i) => (
+            <Reveal key={p.id} delay={i * 60}><a className="link-row" href={p.href} target="_blank" rel="noreferrer">
+              <span className="link-i mono">{String(i + 1).padStart(2, '0')}</span>
+              <span className="link-main"><span className="link-name">{p.name}</span><span className="link-desc">{p.desc}</span></span>
+              <span className="link-handle mono">{p.handle}</span>
+              <ArrowUpRight className="link-arrow" size={20} aria-hidden="true" />
+            </a></Reveal>
+          ))}
+        </div>
+        <p className="section-more mono"><Link to="/links">All links <ArrowRight size={14} aria-hidden="true" /></Link><span>{(live.contributions?.total ?? 0).toLocaleString()} contributions in the last year</span></p>
+      </section>
+    </>
+  )
 }

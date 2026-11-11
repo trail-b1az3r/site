@@ -57,7 +57,7 @@ function Models() {
   const { data, loading, failed } = useFetch('models', getModels)
   const key = (id: string) => id.split('/')[1]
   const items: TItem[] = (data ?? []).map((m): TItem => {
-    const primary = FEATURED_MODELS.includes(key(m.id)), p = params(m.safetensors?.total), date = m.lastModified ?? ''
+    const primary = (FEATURED_MODELS as readonly string[]).includes(key(m.id)), p = params(m.safetensors?.total), date = m.lastModified ?? ''
     return {
       id: m.id, date, title: key(m.id) ?? m.id, badge: primary ? 'Primary model' : 'Model', tone: primary ? 'major' : 'minor',
       href: `https://huggingface.co/${m.id}`, linkLabel: 'Open on Hugging Face',

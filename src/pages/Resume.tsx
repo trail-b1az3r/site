@@ -38,7 +38,7 @@ export default function Resume() {
 
       <h2>Language models</h2>
       <div className="grid two">{primary.map(m => <article key={m.id} className="card resume-item"><h3><a href={`https://huggingface.co/${m.id}`} target="_blank" rel="noreferrer">{key(m.id)}</a></h3>
-        <p className="muted small">{num(m.downloads)} downloads · {num(m.likes)} likes{m.pipeline_tag ? ` · ${m.pipeline_tag}` : ''}</p></article>)}</div>
+        <p className="muted small">{num(m.downloads)} downloads · {num(m.likes)} {m.likes === 1 ? 'like' : 'likes'}{m.pipeline_tag ? ` · ${m.pipeline_tag}` : ''}</p></article>)}</div>
       <p className="muted"><Link to="/ai">All models</Link>, including the experiments.</p>
 
       <h2>Activity</h2>

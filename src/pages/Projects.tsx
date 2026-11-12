@@ -13,8 +13,8 @@ export default function Projects() {
     .filter(r => (lang === 'all' || r.language === lang) && `${r.name} ${r.description ?? ''}`.toLowerCase().includes(q.toLowerCase()))
     .sort((a, b) => sort === 'stars' ? b.stargazers_count - a.stargazers_count : sort === 'name' ? a.name.localeCompare(b.name) : +new Date(b.pushed_at) - +new Date(a.pushed_at)), [data, q, lang, sort])
   return (
-    <Page title="Projects" lead="Public repositories from GitHub. The two flagships come first; the rest are searchable below.">
-      <Seo title="Projects" desc="Public GitHub repositories by trail-b1az3r, including HyperNix-pip and Vivify Quest." />
+    <Page title="Projects" lead="Public repositories from GitHub. The main ones i have not abandoned come first; the rest are searchable below.">
+      <Seo title="Projects" desc="Public GitHub repositories by trail-b1az3r, including HyperNix and Vivify [for] Quest." />
       <div className="grid two">{FEATURED.map(f => <FeaturedProjectCard key={f.name} {...f} repo={data?.find(r => r.name.toLowerCase() === f.name.toLowerCase())} />)}</div>
       <p className="muted">Release history is on the <Link to="/timeline">timeline</Link>. Vivify Quest is also documented on its <Link to="/projects/vivify-quest">project page</Link>.</p>
       <div className="list-head">

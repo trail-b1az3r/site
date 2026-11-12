@@ -17,11 +17,11 @@ export default function About() {
       <Seo title="About" desc="About Rayla (trail-b1az3r): software, small language models, Quest mods and the desktop they run on." />
       <div className="about-grid">
         <div className="prose about-copy">
-          <p className="about-drop">I build software in public, mostly around small language models and Beat Saber mods. The two things I would read first are <Link to="/projects/hypernix-pip">HyperNix-pip</Link>, a training toolkit, and <Link to="/projects/vivify-quest">Vivify Quest</Link>, a port that lets PC-only Vivify maps run on the Quest.</p>
-          <p>On the model side, <a href="https://huggingface.co/ray0rf1re/hyperNix-3.1-mini_c" target="_blank" rel="noreferrer">hyperNix-3.1-mini_c</a> is the latest: a 48.7M-parameter chat tune built on Compactbot/hypernix-3.1-mini. <a href="https://huggingface.co/ray0rf1re/HyperNix.3-mini" target="_blank" rel="noreferrer">HyperNix.3-mini</a> is the base model I pretrained from random init. The rest are experiments.</p>
-          <p>I decided to keep the models small because the machine is small. A GTX 1080 is not a training cluster, and seeing what fits on one card turned out to be more interesting than renting a bigger one. The base model took 12 days and 3 hours, and the card is still in the desktop.</p>
-          <p>A lot of my code is written with AI coding assistants. I would rather you read the code than take my word for what it does — both flagship repositories are public, with their releases and issue history.</p>
-          <p className="about-pull">“I want to learn python and c++ to minimize my use of vibe” — that is the GitHub bio, and it is still the plan.</p>
+          <p className="about-drop">I build software, mostly around things i use or enjoy such as small language models and Beat Saber mods. The two things I would check out first are <Link to="/projects/hypernix-pip">HyperNix-pip</Link>, a training toolkit, and <Link to="/projects/vivify-quest">Vivify Quest</Link>, a port that lets PC-only Vivify maps run on the Quest.</p>
+          <p>On the model side, <a href="https://huggingface.co/ray0rf1re/hyperNix-3.1-mini_c" target="_blank" rel="noreferrer">hyperNix-3.1-mini_c</a> is the latest: a 48.7M-parameter chat model built on Compactbot/hypernix-3.1-mini. <a href="https://huggingface.co/ray0rf1re/HyperNix.3-mini" target="_blank" rel="noreferrer">HyperNix.3-mini</a> is the base model I pretrained from random init. The rest are experiments.</p>
+          <p>I decided to keep the models small because my gpu is old. A GTX 1080 is over 10 years old now and it took 12 days to train 47 million peramiters, and i still need to be able to use that gpu for desktop work.</p>
+          <p>A lot of my code is written with AI. I would rather you look at the code then just trust it — both main repositories are public, with all of there releases.</p>
+          <p className="about-pull">“I want to learn python and c++ to minimize my use of vibecoding”</p>
         </div>
         <aside className="about-side">
           <Reveal><div className="card fact-card">
@@ -33,16 +33,16 @@ export default function About() {
           </div></Reveal>
           <Reveal delay={80}><div className="card fact-card fact-note-card">
             <p className="kicker">How this site is made</p>
-            <p>React, TypeScript and Vite, deployed to GitHub Pages by a GitHub Action. The numbers come from public GitHub, Hugging Face, Steam and YouTube pages and are snapshotted daily. No analytics, no accounts.</p>
-            <p className="mono fact-small">Design and code: mine, with AI assistance where it helped.</p>
+            <p>React, TypeScript and Vite, deployed to GitHub Pages by a GitHub Action. deta comes from GitHub, Hugging Face, Steam and YouTube pages and are updated daily.</p>
+            <p className="mono fact-small">Design and code: mine, with AI assistance.</p>
           </div></Reveal>
         </aside>
       </div>
 
       <h2>Outside of code</h2>
       <div className="grid three">
-        <article className="card"><h3>Beat Saber and Arcaea</h3><p className="muted">Rhythm games. Most of my YouTube uploads are Beat Saber, and Vivify Quest started because a map looked better on PC.</p></article>
-        <article className="card"><h3>Story games</h3><p className="muted">Long single-player games with a plot I want to finish. Steam currently lists Life is Strange as the favourite.</p></article>
+        <article className="card"><h3>Beat Saber and Arcaea</h3><p className="muted">Rhythm games. Most of my YouTube uploads are Beat Saber.</p></article>
+        <article className="card"><h3>Story games</h3><p className="muted">Long single-player games with a plot I perfer. My current favorate game is Life is Strange.</p></article>
         <article className="card"><h3>Games on Steam</h3><p className="muted">My profile and a snapshot of what I have played are on the <Link to="/steam">Steam page</Link>.</p></article>
       </div>
       <p className="muted">Want the short version? See the <Link to="/resume">résumé</Link>, or what I'm learning on the <Link to="/knowledge">knowledge</Link> page.</p>

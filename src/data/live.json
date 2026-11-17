@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-16T13:43:10.298Z",
+ "generatedAt": "2026-11-17T14:31:46.265Z",
  "contributions": {
-  "total": 4469,
+  "total": 4550,
   "days": [
    {
     "date": "2025-11-16",
@@ -1830,14 +1830,19 @@
    },
    {
     "date": "2026-11-16",
+    "level": 3,
+    "count": 85
+   },
+   {
+    "date": "2026-11-17",
     "level": 1,
-    "count": 5
+    "count": 1
    }
   ]
  },
  "steam": {
   "name": "blazer",
-  "avatar": "https://avatars.fastly.steamstatic.com/15177e332701881a1d95d5153bab65f11ee82350_full.jpg",
+  "avatar": "https://avatars.akamai.steamstatic.com/15177e332701881a1d95d5153bab65f11ee82350_full.jpg",
   "level": 26,
   "counts": {
    "Badges": 14,
@@ -1854,18 +1859,39 @@
    "hours": 29,
    "url": "https://steamcommunity.com/app/319630"
   },
-  "fetchedAt": "2026-11-16T13:42:53.935Z"
+  "fetchedAt": "2026-11-17T14:31:29.935Z"
  },
  "youtube": {
   "channelId": "UC92jmFxND8iRU_t5I_ULbEQ",
   "name": "B1az3r",
   "videos": [
    {
+    "id": "vDmWSBCpYoM",
+    "title": "Mili | in hell we live: lament ￼",
+    "published": "2026-11-17T05:00:01+00:00",
+    "thumb": "https://i.ytimg.com/vi/vDmWSBCpYoM/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=vDmWSBCpYoM"
+   },
+   {
+    "id": "EGq02yq4GAg",
+    "title": "Lost in data | VIVIFY ON STANDALONE QUEST",
+    "published": "2026-11-17T04:59:13+00:00",
+    "thumb": "https://i.ytimg.com/vi/EGq02yq4GAg/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=EGq02yq4GAg"
+   },
+   {
     "id": "iJ1-xp63P7A",
     "title": "Teminite  Boom Kitty   The Master 2  Blades Of Chaos Standard Expert",
     "published": "2026-11-14T08:53:17+00:00",
     "thumb": "https://i.ytimg.com/vi/iJ1-xp63P7A/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=iJ1-xp63P7A"
+   },
+   {
+    "id": "Syi2X5ZQHqI",
+    "title": "Justice --  Flower In A Hurricane",
+    "published": "2026-11-14T05:46:48+00:00",
+    "thumb": "https://i.ytimg.com/vi/Syi2X5ZQHqI/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=Syi2X5ZQHqI"
    },
    {
     "id": "wag9jZcae3g",
@@ -1943,27 +1969,6 @@
     "published": "2026-11-03T04:14:49+00:00",
     "thumb": "https://i.ytimg.com/vi/cS4c0HVIT-k/hqdefault.jpg",
     "url": "https://www.youtube.com/watch?v=cS4c0HVIT-k"
-   },
-   {
-    "id": "nL0DDnsFr0o",
-    "title": "Eliminate - elevator | beat saber modded |expert plus #beatsaber",
-    "published": "2026-11-01T21:06:48+00:00",
-    "thumb": "https://i.ytimg.com/vi/nL0DDnsFr0o/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=nL0DDnsFr0o"
-   },
-   {
-    "id": "gkkjE9r_RrU",
-    "title": "Happy Halloween | GhostBusters -theme ",
-    "published": "2026-11-01T21:04:01+00:00",
-    "thumb": "https://i.ytimg.com/vi/gkkjE9r_RrU/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=gkkjE9r_RrU"
-   },
-   {
-    "id": "naJb20DH5w8",
-    "title": "Ghost busters theme | beat saber modded #beatsaber #halloween #candy",
-    "published": "2026-11-01T21:03:35+00:00",
-    "thumb": "https://i.ytimg.com/vi/naJb20DH5w8/hqdefault.jpg",
-    "url": "https://www.youtube.com/watch?v=naJb20DH5w8"
    }
   ]
  },
@@ -2722,13 +2727,13 @@
   }
  ],
  "activity": {
-  "since": "2025-11-16",
-  "fetchedAt": "2026-11-16T13:42:53.565Z",
-  "commits": 3357,
-  "pullsOpened": 755,
-  "pullsMerged": 736,
+  "since": "2025-11-17",
+  "fetchedAt": "2026-11-17T14:31:29.579Z",
+  "commits": 3431,
+  "pullsOpened": 761,
+  "pullsMerged": 742,
   "issuesOpened": 14,
   "reviews": 1,
-  "reposCreated": 64
+  "reposCreated": 65
  }
 }

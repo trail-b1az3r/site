@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-20T14:05:21.458Z",
+ "generatedAt": "2026-11-21T13:31:20.416Z",
  "contributions": {
-  "total": 4633,
+  "total": 4686,
   "days": [
    {
     "date": "2025-11-16",
@@ -1850,6 +1850,11 @@
    },
    {
     "date": "2026-11-20",
+    "level": 2,
+    "count": 53
+   },
+   {
+    "date": "2026-11-21",
     "level": 0,
     "count": 0
    }
@@ -1874,7 +1879,7 @@
    "hours": 29,
    "url": "https://steamcommunity.com/app/319630"
   },
-  "fetchedAt": "2026-11-20T14:05:04.781Z"
+  "fetchedAt": "2026-11-21T13:31:05.512Z"
  },
  "youtube": {
   "channelId": "UC92jmFxND8iRU_t5I_ULbEQ",
@@ -1988,6 +1993,14 @@
   ]
  },
  "releases": [
+  {
+   "tag_name": "v0.73.0",
+   "published_at": "2026-11-20T17:24:57Z",
+   "html_url": "https://github.com/trail-b1az3r/HyperNix-pip/releases/tag/v0.73.0",
+   "prerelease": false,
+   "draft": false,
+   "body": "## Changelog\n![PyPI - Downloads](https://img.shields.io/pypi/dm/hypernix)\n![PyPI - Version](https://img.shields.io/pypi/v/hypernix)\n\nCommits since the last stable release (`v0.72.8.post2`):\n\n- 0.73.0 changelog: the test count is about 10,900 (c299577d)\n- 0.73.0: release notes, README section and version (7b425992)\n- chore: refresh generated docs data and release summaries (6091d1f7)\n- 0.73.0a2 changelog: the re-measured figures and what they overturned (caa7d25c)\n- V7 page: measured tables rendered from the results, and what they show (e11e00dc)\n- V7: on a CPU, int8 momentum only when fp32 would take half the free memory (327da429)\n- Optimizer benchmark: free each band run's optimizer before the next (b97e5fe9)\n- Optimizer results: V5, V5+, V5S, V6 and V7Q at rates above the main grid (2337c9b9)\n- Optimizer results: V7, V7S and V7M ablations (97e3b7dd)\n- Optimizer results: all eleven optimizers on six workloads (376664eb)\n- Optimizer results: training inside V7Mini's band (41.6M parameters) (4f6bad2d)\n- Optimizer results: step() around V7Mini's band (30M to 150M) (53bdee90)\n- Optimizer results renderer; V7 page awaits the re-measured figures (144d8d62)\n- Optimizer benchmark: read MemAvailable for the band's memory check (546559b6)\n- Optimizer benchmark: ablations, raw observations, V7Mini's band (2ec1a39d)\n- chore: refresh generated docs data and release summaries (d7eb8050)\n- chore: update JSON stats (scheduled) (5eead74f)\n- chore: refresh generated docs data and release summaries (8f2d9ed7)\n- chore: refresh generated docs data and release summaries (20385f4c)\n- chore: refresh generated docs data and release summaries (df79b58f)\n- chore: update JSON stats (scheduled) (c85e2d21)\n- chore: refresh generated docs data and release summaries (0e8a840c)\n- chore: refresh gener"
+  },
   {
    "tag_name": "v0.72.8.post1",
    "published_at": "2026-11-04T02:29:28Z",
@@ -2742,12 +2755,12 @@
   }
  ],
  "activity": {
-  "since": "2025-11-20",
-  "fetchedAt": "2026-11-20T14:05:04.484Z",
-  "commits": 3470,
-  "pullsOpened": 793,
-  "pullsMerged": 773,
-  "issuesOpened": 14,
+  "since": "2025-11-21",
+  "fetchedAt": "2026-11-21T13:31:04.997Z",
+  "commits": 3512,
+  "pullsOpened": 802,
+  "pullsMerged": 782,
+  "issuesOpened": 15,
   "reviews": 1,
   "reposCreated": 68
  }
